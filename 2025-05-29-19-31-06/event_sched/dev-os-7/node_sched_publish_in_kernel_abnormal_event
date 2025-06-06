@@ -1,7 +1,0 @@
-record index 4
-
-index,publish_user,publish_syscall(+),publish_finish(+),event id,publish_pid,publish_cpuid
-1,69214331764279,4,8,19,9485,0
-2,69222465082933,4,9,19,9724,0
-3,69222465133279,3,6,19,9724,0
-4,69222974899968,4,8,19,9759,0

@@ -1,2 +1,0 @@
-====================chip dfx min in=================
-magic                           : 0xfbffdde2

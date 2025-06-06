@@ -1,3 +1,7 @@
+# nanoGPT(NPU version)
+This repo is built on *nanogpt* compatible with NPU servers. Replacing torch.cuda with torch_npu api is the main change. If you have any questions, please feel free to raise them.
+
+The following is the content of the original repo.
 
 # nanoGPT
 

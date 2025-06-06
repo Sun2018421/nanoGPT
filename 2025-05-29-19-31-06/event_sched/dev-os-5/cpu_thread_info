@@ -1,1 +1,0 @@
-bind_cpuid,pid,gid,tid,name,kernel_tid,status,wait flag,timeout flag,wakeup reason,normal wakeup reason,start time(ms),max proc time(us),ave proc time(us),max sched time(us),ave sched time(us),subscribe event bitmap,fwd event,sched event,timeout cnt,discard cnt

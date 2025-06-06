@@ -1,6 +1,0 @@
-record index 3
-
-index,publish_user,publish_syscall(+),event id,publish_pid,publish_cpuid
-1,565856397482,4,19,32708,0
-2,69214165457962,5,19,3870,0
-3,69222471736442,4,19,4115,0
