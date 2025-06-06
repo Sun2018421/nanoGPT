@@ -3,6 +3,12 @@
 # $ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
 
 wandb_log = True
+wandb_project = 'GPT2-medium'
+wandb_run_name='gpt2-medium-adam-100k'
+
+# these make the total batch size be ~0.5M
+# 6 batch size * 1024 block size * 10 gradaccum * 8 GPUs = 491,520
+wandb_log = True
 wandb_project = 'owt'
 wandb_run_name='gpt2-124M'
 

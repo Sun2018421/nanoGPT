@@ -1,0 +1,371 @@
+May 29 18:46:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:47:00 (none) cron.info crond[4888]: USER root pid 13129 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:47:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:47:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:47:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:47:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:48:00 (none) cron.info crond[4888]: USER root pid 13213 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:48:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:48:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:48:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:48:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:49:00 (none) cron.info crond[4888]: USER root pid 13292 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:49:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:49:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:49:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:49:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:49:20 (none) user.info aicpu_scheduler: dlog_core.c:478: dlog has been inited.
+May 29 18:49:20 (none) user.info aicpu_scheduler: dlog_attr.c:200: can't set mode by env ASCEND_LOG_SAVE_MODE, use original value.
+May 29 18:49:20 (none) user.info aicpu_scheduler: dlog_attr.c:216: set log attr, type(0), deviceId(0), host pid(1264442), save mode(4269108841).
+May 29 18:49:20 (none) kern.info kernel: [1383867.626598] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <tsdaemon:4971> Sync pid map. (op=1; host_pid=1264442; pid=13344; cp_type=2; devid=5)
+May 29 18:49:20 (none) kern.info kernel: [1383867.626685] [ascend] [devdrv] [devdrv_bind_hostpid 756] <tsdaemon:4971> Bind pid success. (host_pid=1264442; dev_pid=13344; cp_type=0; dev_id=0; vfid=0; mode=0)
+May 29 18:49:20 (none) authpriv.notice sudo: pam_unix(sudo:account): expired password for user HwHiAiUser (root enforced)
+May 29 18:49:20 (none) authpriv.notice sudo: HwHiAiUser : PWD=/var ; USER=root ; COMMAND=/var/tsdaemon_add_to_usermemory.sh 13344 0 0
+May 29 18:49:20 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 29 18:49:20 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:49:20 (none) kern.info kernel: [1383867.646445] [ascend] [event_sched] [esched_drv_map_host_dev_pid 1961] <aicpu_scheduler:13344:13344:0> Show details. (pid=13344; dev_id=0; vfid=0; cp_type=0; host_pid=1264442)
+May 29 18:49:20 (none) kern.info kernel: [1383867.646485] [ascend] [event_sched] [topic_sched_config_pid 264] <aicpu_scheduler:13344:13344:0> Add pid mapping table entry. (vfid=0; host_pid=1264442; table_id=1)
+May 29 18:49:20 (none) kern.info kernel: [1383867.646488] [ascend] [event_sched] [topic_sched_config_pid 278] <aicpu_scheduler:13344:13344:0> Update pid mapping table entry. (vfid=0; host_pid=1264442; table_id=1; pid_type=2; pid=13344)
+May 29 18:49:20 (none) kern.info kernel: [1383867.747581] [ascend] [devmm] [devmm_svm_mmget 94] <kworker/0:0:12810,12810> Mmget details. (hostpid=1264442; devid=0; vfid=0; devpid=13344; ref=1)
+May 29 18:49:20 (none) kern.info kernel: [1383867.747626] [ascend] [devmm] [devmm_config_sp_dvpp_mem_area 80] <kworker/0:0:12810,12810> Sp_config_dvpp. (did=0; hostdid=5; drv_start=0x102800000000; drv_end=0x102bffffffff; sp_start=0x102c00000000; sp_end=0x102fffffffff)
+May 29 18:49:20 (none) kern.info kernel: [1383867.747628] [ascend] [devmm] [devmm_split_dvpp_mem_area_first 94] <kworker/0:0:12810,12810> Split dvpp memory area. (devpid=13344; hostpid=1264442; devid=0; vfid=0)
+May 29 18:49:20 (none) kern.info kernel: [1383867.767552] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=33)
+May 29 18:49:20 (none) kern.info kernel: [1383867.767576] [ascend] [tsmng] [tsmng_ts_req_mem 195] <swapper/3:0> Ts mem ops. (devid=0; cmd=33; sub_cmd=151; vfid=0; mem_size=0x10000)
+May 29 18:49:23 (none) kern.warn kernel: [1383870.716290] [ascend] [hdcdrv] [hdcdrv_recv_peek 4291] <tsdaemon:4971> Get session.(dev=0; session=5; service_type="service_TSD"; recv_peek_wait_ret=-22;head=0; tail=0; local_close_state="remote_close_post"; remote_close_sta
+May 29 18:49:23 (none) kern.warn kernel: [1383870.716409] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:13344:13351:2> Show warning details. (pid=13344; gid=0; tid=0; err_ret=-512)
+May 29 18:49:23 (none) kern.warn kernel: [1383870.716486] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:13344:13344:0> Show warning details. (pid=13344; gid=30; tid=0; err_ret=-512)
+May 29 18:49:23 (none) kern.info kernel: [1383870.716600] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <aicpu_scheduler:13344> Add release list success. (uda DMS DEVMNG ESCHED SVM_AGENT DP_PROC_MNG )
+May 29 18:49:23 (none) kern.info kernel: [1383870.716620] [ascend] [devdrv] [devdrv_release_sync_to_peer 1685] <aicpu_scheduler:13344> Release sync. (master_pid=1264442; slave_pid=13344; dev_id=0; vf_id=0; cp_type=0)
+May 29 18:49:23 (none) kern.info kernel: [1383870.716624] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <aicpu_scheduler:13344> Sync pid map. (op=0; host_pid=1264442; pid=13344; cp_type=2; devid=5)
+May 29 18:49:23 (none) kern.info kernel: [1383870.716762] [ascend] [devdrv] [devdrv_manager_process_sign_release 1836] <aicpu_scheduler:13344> Destroy master pid ctx when proc exit. (hostpid=1264442)
+May 29 18:49:23 (none) kern.info kernel: [1383870.716792] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <aicpu_scheduler:13344> release hostpid(1264442), devpid(13344), cp1_pid(13344), cp2_pid(-1), dev_only_pid(0), qs_pid(0), hccp_pid(0), chip_id(0), vfi
+May 29 18:49:23 (none) kern.info kernel: [1383870.716991] [ascend] [event_sched] [topic_sched_del_host_pid 326] <davinci_recycle:13360:13360:0> Del pid mapping table entry. (vfid=0; host_pid=1264442; table_id=1; pid=13344)
+May 29 18:49:23 (none) kern.info kernel: [1383870.717115] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=35)
+May 29 18:49:23 (none) kern.info kernel: [1383870.717121] [ascend] [tsmng] [tsmng_ts_free_mem 149] <swapper/3:0> Ts mem ops. (cmd=35; sub_cmd=152; mem_size=0x10000)
+May 29 18:49:23 (none) kern.warn kernel: [1383870.761040] [ascend] [hdcdrv] [hdcdrv_session_state_to_closing 913] <tsdaemon:4971> Status IDLE, session has already closed. (session=5; dev_id=0; service_type="service_TSD"; local_close_state="remote_close_post"; remote_cl
+May 29 18:49:23 (none) kern.warn kernel: [1383870.768034] [ascend] [hdcdrv] [hdcdrv_session_para_check 956] <traceServerSend:4755> session_fd is invalid. (session_fd=2; dev_id=0; service_type="service_bbox";local_close_state="remote_close_post"; remote_close_state="clo
+May 29 18:49:23 (none) kern.warn kernel: [1383870.768044] [ascend] [hdcdrv] [hdcdrv_session_state_to_closing 913] <traceServerSend:4755> Status IDLE, session has already closed. (session=2; dev_id=0; service_type="service_bbox"; local_close_state="remote_close_post"; r
+May 29 18:49:23 (none) kern.info kernel: [1383870.835560] [ascend] [devmm] [devmm_svm_mmput 124] <kworker/0:2:13234,13234> Mmput async. (hostpid=1264442; devid=0; vfid=0; devpid=13344; ref=0)
+May 29 18:49:23 (none) kern.info kernel: [1383870.835794] [ascend] [devmm] [devmm_svm_mmu_notifier_unreg 53] <kworker/0:2:13234,13234> Devmm notifier unreg.(hostpid=1264442; devpid=13344; devid=0; vfid=0; status=0x0; proc_idx=0x1; msg=0; other_proc=0)
+May 29 18:49:23 (none) kern.info kernel: [1383870.840844] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1516] <kworker/0:2:13234,13234> App exited destroy mem begin.
+May 29 18:49:23 (none) kern.info kernel: [1383870.840849] [ascend] [devmm] [devmm_page_cnt_stats_show 106] <kworker/0:2:13234,13234> Page cnt stats info. (cgroup_page_cnt=0; cgroup_hpage_cnt=0; cdm_page_cnt=1024; cdm_hpage_cnt=19)
+May 29 18:49:23 (none) kern.info kernel: [1383870.906577] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1538] <kworker/0:2:13234,13234> App exited destroy mem end. (hostpid=1264442; devpid=13344; devid=0; vfid=0)
+May 29 18:50:00 (none) cron.info crond[4888]: USER root pid 13410 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:50:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:50:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:50:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:50:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:51:00 (none) cron.info crond[4888]: USER root pid 13484 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:51:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:51:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:51:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:51:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:52:00 (none) cron.info crond[4888]: USER root pid 13572 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:52:03 (none) user.info aicpu_scheduler: dlog_core.c:478: dlog has been inited.
+May 29 18:52:03 (none) user.info aicpu_scheduler: dlog_attr.c:200: can't set mode by env ASCEND_LOG_SAVE_MODE, use original value.
+May 29 18:52:03 (none) user.info aicpu_scheduler: dlog_attr.c:216: set log attr, type(0), deviceId(0), host pid(1268466), save mode(4269108841).
+May 29 18:52:03 (none) kern.info kernel: [1384030.842354] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <tsdaemon:4971> Sync pid map. (op=1; host_pid=1268466; pid=13584; cp_type=2; devid=5)
+May 29 18:52:03 (none) kern.info kernel: [1384030.842552] [ascend] [devdrv] [devdrv_bind_hostpid 756] <tsdaemon:4971> Bind pid success. (host_pid=1268466; dev_pid=13584; cp_type=0; dev_id=0; vfid=0; mode=0)
+May 29 18:52:03 (none) authpriv.notice sudo: pam_unix(sudo:account): expired password for user HwHiAiUser (root enforced)
+May 29 18:52:03 (none) authpriv.notice sudo: HwHiAiUser : PWD=/var ; USER=root ; COMMAND=/var/tsdaemon_add_to_usermemory.sh 13584 0 0
+May 29 18:52:03 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 29 18:52:03 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:52:03 (none) kern.info kernel: [1384030.857116] [ascend] [event_sched] [esched_drv_map_host_dev_pid 1961] <aicpu_scheduler:13584:13584:0> Show details. (pid=13584; dev_id=0; vfid=0; cp_type=0; host_pid=1268466)
+May 29 18:52:03 (none) kern.info kernel: [1384030.857155] [ascend] [event_sched] [topic_sched_config_pid 264] <aicpu_scheduler:13584:13584:0> Add pid mapping table entry. (vfid=0; host_pid=1268466; table_id=1)
+May 29 18:52:03 (none) kern.info kernel: [1384030.857158] [ascend] [event_sched] [topic_sched_config_pid 278] <aicpu_scheduler:13584:13584:0> Update pid mapping table entry. (vfid=0; host_pid=1268466; table_id=1; pid_type=2; pid=13584)
+May 29 18:52:03 (none) kern.info kernel: [1384030.953241] [ascend] [devmm] [devmm_svm_mmget 94] <kworker/0:2:13234,13234> Mmget details. (hostpid=1268466; devid=0; vfid=0; devpid=13584; ref=1)
+May 29 18:52:03 (none) kern.info kernel: [1384030.953289] [ascend] [devmm] [devmm_config_sp_dvpp_mem_area 80] <kworker/0:2:13234,13234> Sp_config_dvpp. (did=0; hostdid=5; drv_start=0x102800000000; drv_end=0x102bffffffff; sp_start=0x102c00000000; sp_end=0x102fffffffff)
+May 29 18:52:03 (none) kern.info kernel: [1384030.953292] [ascend] [devmm] [devmm_split_dvpp_mem_area_first 94] <kworker/0:2:13234,13234> Split dvpp memory area. (devpid=13584; hostpid=1268466; devid=0; vfid=0)
+May 29 18:52:03 (none) kern.info kernel: [1384030.973301] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=33)
+May 29 18:52:03 (none) kern.info kernel: [1384030.973324] [ascend] [tsmng] [tsmng_ts_req_mem 195] <swapper/3:0> Ts mem ops. (devid=0; cmd=33; sub_cmd=151; vfid=0; mem_size=0x10000)
+May 29 18:52:06 (none) kern.warn kernel: [1384034.006171] [ascend] [hdcdrv] [hdcdrv_recv_peek 4291] <tsdaemon:4971> Get session.(dev=0; session=11; service_type="service_TSD"; recv_peek_wait_ret=-21;head=3; tail=3; local_close_state="state_none"; remote_close_state="st
+May 29 18:52:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:52:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:52:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:52:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:52:11 (none) authpriv.err sudo: pam_unix(sudo:auth): conversation failed
+May 29 18:52:11 (none) authpriv.crit sudo: pam_unix(sudo:auth): auth could not identify password for [HwHiAiUser]
+May 29 18:52:11 (none) kern.info kernel: [1384038.474033] [ascend] [devdrv] [devdrv_bind_hostpid 756] <tsdaemon:4971> Bind pid success. (host_pid=1268466; dev_pid=13616; cp_type=4; dev_id=0; vfid=0; mode=0)
+May 29 18:52:13 (none) authpriv.alert sudo: HwHiAiUser : command not allowed ; PWD=/var ; USER=root ; COMMAND=./add_to_cgroup_usermemory.sh hccp_service.bin
+May 29 18:52:13 (none) user.info hccp_service.bin: dlog_attr.c:200: can't set mode by env ASCEND_LOG_SAVE_MODE, use original value.
+May 29 18:52:13 (none) user.info hccp_service.bin: dlog_attr.c:216: set log attr, type(0), deviceId(0), host pid(1268466), save mode(4269108841).
+May 29 18:52:13 (none) kern.info kernel: [1384040.810644] [ascend] [hdcdrv] [hdcdrv_server_create 3503] <hccp_service.bi:13616> Server create success.(dev_id=0; fid=0; service_type="service_rdma"; pid=13616)
+May 29 18:52:13 (none) kern.info kernel: [1384040.812792] [hccn_cdev] read flash: read hccp_certs_mng_cb from dev0 start, expect size:1188.
+May 29 18:52:13 (none) kern.info kernel: [1384040.812801] [hccn_cdev] proc info: (proc name="hccp_service.bin";path="/var/hccp_service.bin";uid=1000)
+May 29 18:52:13 (none) kern.info kernel: [1384040.812905] [hccn_cdev] read flash thread in. (dev_id=0, name=hccp_certs_mng_cb)
+May 29 18:52:13 (none) kern.info kernel: [1384040.853449] [ascend] [user_cfg_drv] [devdrv_config_get_valid_block 961] <hccn_read_flash:13621> The main valid, backup valid. (device_id=0; main_valid=1; bk_valid=1)
+May 29 18:52:13 (none) kern.notice kernel: [1384040.873463] [ascend] [user_cfg_drv] [devdrv_get_usr_cfg_name_info 1271] <hccn_read_flash:13621> Find match item name. head_idx=2, blk=2, offset=35904, size=1188
+May 29 18:52:13 (none) kern.info kernel: [1384040.893251] [hccn_cdev] read flash item data success. (dev_id=0, name=hccp_certs_mng_cb)
+May 29 18:52:13 (none) kern.info kernel: [1384040.893328] [hccn_cdev] read flash: read hccp_certs_mng_cb from dev 0 success.
+May 29 18:52:13 (none) kern.info kernel: [1384040.893668] [ascend] [event_sched] [esched_drv_map_host_dev_pid 1961] <hccp_service.bi:13616:13616:0> Show details. (pid=13616; dev_id=0; vfid=0; cp_type=4; host_pid=1268466)
+May 29 18:52:13 (none) kern.info kernel: [1384040.893674] [ascend] [event_sched] [topic_sched_config_pid 278] <hccp_service.bi:13616:13616:0> Update pid mapping table entry. (vfid=0; host_pid=1268466; table_id=1; pid_type=3; pid=13616)
+May 29 18:52:14 (none) kern.info kernel: [1384042.188314] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 659] <kworker/0:2:13234:13234> P2P message channel init success. (host_dev_id=5; dst_dev_id=0)
+May 29 18:52:14 (none) kern.info kernel: [1384042.188623] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 659] <kworker/0:2:13234:13234> P2P message channel init success. (host_dev_id=5; dst_dev_id=1)
+May 29 18:52:14 (none) kern.info kernel: [1384042.188968] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 659] <kworker/0:2:13234:13234> P2P message channel init success. (host_dev_id=5; dst_dev_id=3)
+May 29 18:52:14 (none) kern.info kernel: [1384042.189130] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 659] <kworker/0:2:13234:13234> P2P message channel init success. (host_dev_id=5; dst_dev_id=4)
+May 29 18:52:14 (none) kern.info kernel: [1384042.189369] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 659] <kworker/0:2:13234:13234> P2P message channel init success. (host_dev_id=5; dst_dev_id=6)
+May 29 18:52:14 (none) kern.info kernel: [1384042.189623] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 659] <kworker/0:2:13234:13234> P2P message channel init success. (host_dev_id=5; dst_dev_id=7)
+May 29 18:52:14 (none) kern.info kernel: [1384042.228380] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 659] <kworker/0:2:13234:13234> P2P message channel init success. (host_dev_id=5; dst_dev_id=2)
+May 29 18:52:15 (none) kern.info kernel: [1384043.089876] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 639] <kworker/0:1:11177:11177> p2p msg chan delete. (host_dev_id=5; dst_devid=0)
+May 29 18:52:16 (none) kern.info kernel: [1384043.549845] [DRV_LPM_DEVMNG]lpm dsmi_stats: setTops(0x0,0x0) setLptest(0x0,0x0) setIdleSwitch(0x0,0x0) getAicVoltCurr(0x0,0x0)
+May 29 18:52:16 (none) kern.info kernel: [1384043.549849] [DRV_LPM_DEVMNG] getHybridVoltCurr(0x0,0x0) getCpuVoltCurr(0x0,0x0) getDdrVoltCurr(0x0,0x0) getAcgCnt(0x0,0x0)
+May 29 18:52:16 (none) kern.info kernel: [1384043.549852] [DRV_LPM_DEVMNG] getIdleStatus(0x0,0x0) getCurrentTops(0x0,0x0) getAllTops(0x0,0x0) getAicFreqReduc(0x0,0x0)
+May 29 18:52:16 (none) kern.info kernel: [1384043.549856] [DRV_LPM_DEVMNG] getPower(0x0,0x0) setSocStress(0x0,0x0) getAicCpm(0x0,0x0) getBusCpm(0x0,0x0)
+May 29 18:52:16 (none) kern.info kernel: [1384043.549859] [DRV_LPM_DEVMNG] setSocStressInner(0x0,0x0) getAicCpmInner(0x0,0x0) getBusCpmInner(0x0,0x0) getLptest(0x0,0x0)
+May 29 18:52:16 (none) kern.info kernel: [1384043.549861] [DRV_LPM_DEVMNG] getTempDdr(0x0,0x0) getTempDdrThold(0x0,0x0) getTempSocThold(0x0,0x0) getTempSocMinThold(0x0,0x0)
+May 29 18:52:16 (none) kern.info kernel: [1384043.549865] [DRV_LPM_DEVMNG] setSuspend(0x0,0x0) getLpStatus(0x0,0x0) getFreq(0x13b39,0x0) getTemp(0x78b,0x0)
+May 29 18:52:16 (none) kern.info kernel: [1384043.549866] [DRV_LPM_DEVMNG] getVrdInfo(0x0,0x0)
+May 29 18:52:16 (none) kern.info kernel: [1384043.621894] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 639] <kworker/0:4:13626:13626> p2p msg chan delete. (host_dev_id=5; dst_devid=1)
+May 29 18:52:16 (none) kern.info kernel: [1384044.081908] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 639] <kworker/0:4:13626:13626> p2p msg chan delete. (host_dev_id=5; dst_devid=2)
+May 29 18:52:17 (none) kern.info kernel: [1384044.465987] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 639] <kworker/0:4:13626:13626> p2p msg chan delete. (host_dev_id=5; dst_devid=3)
+May 29 18:52:17 (none) kern.info kernel: [1384044.542055] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 639] <kworker/0:4:13626:13626> p2p msg chan delete. (host_dev_id=5; dst_devid=4)
+May 29 18:52:17 (none) kern.info kernel: [1384044.617882] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 639] <kworker/0:4:13626:13626> p2p msg chan delete. (host_dev_id=5; dst_devid=6)
+May 29 18:52:17 (none) kern.info kernel: [1384044.693886] [ascend] [drv_pcie] [agentdrv_p2p_msg_chan_init 639] <kworker/0:4:13626:13626> p2p msg chan delete. (host_dev_id=5; dst_devid=7)
+May 29 18:52:21 (none) kern.info kernel: [1384048.444107] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=35)
+May 29 18:52:21 (none) kern.info kernel: [1384048.444122] [ascend] [tsmng] [tsmng_ts_free_mem 149] <swapper/3:0> Ts mem ops. (cmd=35; sub_cmd=152; mem_size=0x10000)
+May 29 18:52:21 (none) kern.info kernel: [1384048.468569] [ascend] [drv_pcie] [agentdrv_rx_msg_record_resq_time 940] <kworker/0:4:13626:13626> Get resq_time. (msg_type=5; chan_id=32; resq_time=24 ms; cpu=0)
+May 29 18:52:21 (none) kern.info kernel: [1384048.618480] [ascend] [devmm] [devmm_svm_mmput 124] <kworker/0:1:11177,11177> Mmput async. (hostpid=1268466; devid=0; vfid=0; devpid=13584; ref=0)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.431074] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:13584:13584:0> Show warning details. (pid=13584; gid=30; tid=0; err_ret=-512)
+May 29 18:52:23 (none) kern.info kernel: [1384050.431420] [ascend] [devmm] [devmm_svm_mmu_notifier_unreg 53] <aicpu_scheduler:13584,13598> Devmm notifier unreg.(hostpid=1268466; devpid=13584; devid=0; vfid=0; status=0x0; proc_idx=0x2; msg=0; other_proc=0)
+May 29 18:52:23 (none) kern.info kernel: [1384050.436511] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1516] <aicpu_scheduler:13584,13598> App exited destroy mem begin.
+May 29 18:52:23 (none) kern.info kernel: [1384050.436602] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1538] <aicpu_scheduler:13584,13598> App exited destroy mem end. (hostpid=1268466; devpid=13584; devid=0; vfid=0)
+May 29 18:52:23 (none) kern.info kernel: [1384050.449217] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <aicpu_scheduler:13584> Add release list success. (uda DMS DEVMNG ESCHED SVM_AGENT DP_PROC_MNG )
+May 29 18:52:23 (none) kern.info kernel: [1384050.449228] [ascend] [devdrv] [devdrv_release_sync_to_peer 1685] <aicpu_scheduler:13584> Release sync. (master_pid=1268466; slave_pid=13584; dev_id=0; vf_id=0; cp_type=0)
+May 29 18:52:23 (none) kern.info kernel: [1384050.449233] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <aicpu_scheduler:13584> Sync pid map. (op=0; host_pid=1268466; pid=13584; cp_type=2; devid=5)
+May 29 18:52:23 (none) kern.info kernel: [1384050.449384] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <aicpu_scheduler:13584> release hostpid(1268466), devpid(13584), cp1_pid(13584), cp2_pid(-1), dev_only_pid(0), qs_pid(0), hccp_pid(0), chip_id(0), vfi
+May 29 18:52:23 (none) kern.info kernel: [1384050.449630] [ascend] [event_sched] [topic_sched_del_host_pid 326] <davinci_recycle:13645:13645:0> Del pid mapping table entry. (vfid=0; host_pid=1268466; table_id=1; pid=13584)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.451621] [ascend] [event_sched] [sched_wait_for_publish_event 955] <hccp_service.bi:13616:13616:0> Show warning details. (pid=13616; gid=30; tid=0; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.451711] [ascend] [hdcdrv] [hdcdrv_accept_wait 3616] <hccp_service.bi:13616> Accept wait interruptible exit. (dev_id=0; service_type="service_rdma"; ret=-512)
+May 29 18:52:23 (none) kern.info kernel: [1384050.462875] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <hccp_service.bi:13616> Add release list success. (uda DMS DEVMNG ESCHED DP_PROC_MNG )
+May 29 18:52:23 (none) kern.info kernel: [1384050.462958] [ascend] [devdrv] [devdrv_manager_process_sign_release 1836] <hccp_service.bi:13616> Destroy master pid ctx when proc exit. (hostpid=1268466)
+May 29 18:52:23 (none) kern.info kernel: [1384050.462987] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <hccp_service.bi:13616> release hostpid(1268466), devpid(13616), cp1_pid(0), cp2_pid(0), dev_only_pid(0), qs_pid(0), hccp_pid(13616), chip_id(0), vfid
+May 29 18:52:23 (none) kern.info kernel: [1384050.463087] [ascend] [hdcdrv] [hdcdrv_release_destroy_server 5386] <hccp_service.bi:13616> Release server. (task_pid=13616; dev_id=0; service_type="service_rdma")
+May 29 18:52:23 (none) kern.info kernel: [1384050.463090] [ascend] [hdcdrv] [hdcdrv_server_destroy 3580] <hccp_service.bi:13616> Server destroy success.(dev_id=0; fid=0; service="service_rdma"; pid=13616)
+May 29 18:52:23 (none) kern.info kernel: [1384050.463196] [ascend] [event_sched] [topic_sched_del_host_pid 296] <davinci_recycle:13646:13646:0> None such host_pid in topic table, deletion not needed. (vfid=0; host_pid=1268466)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.506782] [ascend] [hdcdrv] [hdcdrv_session_state_to_closing 913] <tsdaemon:4971> Status IDLE, session has already closed. (session=11; dev_id=0; service_type="service_TSD"; local_close_state="remote_close_post"; remote_c
+May 29 18:53:00 (none) cron.info crond[4888]: USER root pid 13695 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:53:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:53:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:53:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:53:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:54:00 (none) cron.info crond[4888]: USER root pid 13769 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:54:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:54:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:54:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:54:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:55:00 (none) cron.info crond[4888]: USER root pid 13844 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:55:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:55:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:55:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:55:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:56:00 (none) cron.info crond[4888]: USER root pid 13921 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:56:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:56:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:56:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:56:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:57:00 (none) cron.info crond[4888]: USER root pid 14012 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:57:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:57:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:57:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:57:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:58:00 (none) cron.info crond[4888]: USER root pid 14089 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:58:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:58:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:58:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:58:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:59:00 (none) cron.info crond[4888]: USER root pid 14163 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:59:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:59:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 18:59:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:59:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:00:00 (none) cron.info crond[4888]: USER root pid 14243 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:00:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:00:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:00:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:00:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:00:44 (none) kern.info kernel: [1384551.453843] [DRV_LPM_DEVMNG]lpm dsmi_stats: setTops(0x0,0x0) setLptest(0x0,0x0) setIdleSwitch(0x0,0x0) getAicVoltCurr(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453849] [DRV_LPM_DEVMNG] getHybridVoltCurr(0x0,0x0) getCpuVoltCurr(0x0,0x0) getDdrVoltCurr(0x0,0x0) getAcgCnt(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453852] [DRV_LPM_DEVMNG] getIdleStatus(0x0,0x0) getCurrentTops(0x0,0x0) getAllTops(0x0,0x0) getAicFreqReduc(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453855] [DRV_LPM_DEVMNG] getPower(0x0,0x0) setSocStress(0x0,0x0) getAicCpm(0x0,0x0) getBusCpm(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453858] [DRV_LPM_DEVMNG] setSocStressInner(0x0,0x0) getAicCpmInner(0x0,0x0) getBusCpmInner(0x0,0x0) getLptest(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453861] [DRV_LPM_DEVMNG] getTempDdr(0x0,0x0) getTempDdrThold(0x0,0x0) getTempSocThold(0x0,0x0) getTempSocMinThold(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453864] [DRV_LPM_DEVMNG] setSuspend(0x0,0x0) getLpStatus(0x0,0x0) getFreq(0x13b55,0x0) getTemp(0x78b,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453866] [DRV_LPM_DEVMNG] getVrdInfo(0x0,0x0)
+May 29 19:01:00 (none) cron.info crond[4888]: USER root pid 14327 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:01:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:01:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:01:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:01:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:02:00 (none) cron.info crond[4888]: USER root pid 14401 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:02:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:02:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:02:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:02:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:03:00 (none) cron.info crond[4888]: USER root pid 14479 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:03:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:03:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:03:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:03:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:04:00 (none) cron.info crond[4888]: USER root pid 14568 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:04:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:04:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:04:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:04:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:05:00 (none) cron.info crond[4888]: USER root pid 14644 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:05:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:05:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:05:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:05:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:06:00 (none) cron.info crond[4888]: USER root pid 14722 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:06:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:06:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:06:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:06:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:07:00 (none) cron.info crond[4888]: USER root pid 14797 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:07:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:07:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:07:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:07:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:08:00 (none) cron.info crond[4888]: USER root pid 14882 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:08:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:08:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:08:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:08:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:09:00 (none) cron.info crond[4888]: USER root pid 14961 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:09:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:09:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:09:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:09:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:09:12 (none) kern.info kernel: [1385059.357845] [DRV_LPM_DEVMNG]lpm dsmi_stats: setTops(0x0,0x0) setLptest(0x0,0x0) setIdleSwitch(0x0,0x0) getAicVoltCurr(0x0,0x0)
+May 29 19:09:12 (none) kern.info kernel: [1385059.357852] [DRV_LPM_DEVMNG] getHybridVoltCurr(0x0,0x0) getCpuVoltCurr(0x0,0x0) getDdrVoltCurr(0x0,0x0) getAcgCnt(0x0,0x0)
+May 29 19:09:12 (none) kern.info kernel: [1385059.357855] [DRV_LPM_DEVMNG] getIdleStatus(0x0,0x0) getCurrentTops(0x0,0x0) getAllTops(0x0,0x0) getAicFreqReduc(0x0,0x0)
+May 29 19:09:12 (none) kern.info kernel: [1385059.357858] [DRV_LPM_DEVMNG] getPower(0x0,0x0) setSocStress(0x0,0x0) getAicCpm(0x0,0x0) getBusCpm(0x0,0x0)
+May 29 19:09:12 (none) kern.info kernel: [1385059.357860] [DRV_LPM_DEVMNG] setSocStressInner(0x0,0x0) getAicCpmInner(0x0,0x0) getBusCpmInner(0x0,0x0) getLptest(0x0,0x0)
+May 29 19:09:12 (none) kern.info kernel: [1385059.357864] [DRV_LPM_DEVMNG] getTempDdr(0x0,0x0) getTempDdrThold(0x0,0x0) getTempSocThold(0x0,0x0) getTempSocMinThold(0x0,0x0)
+May 29 19:09:12 (none) kern.info kernel: [1385059.357867] [DRV_LPM_DEVMNG] setSuspend(0x0,0x0) getLpStatus(0x0,0x0) getFreq(0x13b70,0x0) getTemp(0x78b,0x0)
+May 29 19:09:12 (none) kern.info kernel: [1385059.357868] [DRV_LPM_DEVMNG] getVrdInfo(0x0,0x0)
+May 29 19:10:00 (none) cron.info crond[4888]: USER root pid 15037 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:10:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:10:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:10:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:10:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:11:00 (none) cron.info crond[4888]: USER root pid 15112 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:11:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:11:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:11:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:11:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:12:00 (none) cron.info crond[4888]: USER root pid 15189 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:12:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:12:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:12:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:12:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:13:00 (none) cron.info crond[4888]: USER root pid 15277 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:13:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:13:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:13:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:13:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:14:00 (none) cron.info crond[4888]: USER root pid 15354 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:14:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:14:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:14:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:14:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:15:00 (none) cron.info crond[4888]: USER root pid 15432 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:15:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:15:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:15:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:15:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:16:00 (none) cron.info crond[4888]: USER root pid 15509 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:16:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:16:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:16:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:16:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:17:00 (none) cron.info crond[4888]: USER root pid 15595 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:17:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:17:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:17:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:17:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:17:39 (none) kern.info kernel: [1385567.261842] [DRV_LPM_DEVMNG]lpm dsmi_stats: setTops(0x0,0x0) setLptest(0x0,0x0) setIdleSwitch(0x0,0x0) getAicVoltCurr(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261849] [DRV_LPM_DEVMNG] getHybridVoltCurr(0x0,0x0) getCpuVoltCurr(0x0,0x0) getDdrVoltCurr(0x0,0x0) getAcgCnt(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261852] [DRV_LPM_DEVMNG] getIdleStatus(0x0,0x0) getCurrentTops(0x0,0x0) getAllTops(0x0,0x0) getAicFreqReduc(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261855] [DRV_LPM_DEVMNG] getPower(0x0,0x0) setSocStress(0x0,0x0) getAicCpm(0x0,0x0) getBusCpm(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261857] [DRV_LPM_DEVMNG] setSocStressInner(0x0,0x0) getAicCpmInner(0x0,0x0) getBusCpmInner(0x0,0x0) getLptest(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261860] [DRV_LPM_DEVMNG] getTempDdr(0x0,0x0) getTempDdrThold(0x0,0x0) getTempSocThold(0x0,0x0) getTempSocMinThold(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261863] [DRV_LPM_DEVMNG] setSuspend(0x0,0x0) getLpStatus(0x0,0x0) getFreq(0x13b8c,0x0) getTemp(0x78b,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261865] [DRV_LPM_DEVMNG] getVrdInfo(0x0,0x0)
+May 29 19:18:00 (none) cron.info crond[4888]: USER root pid 15674 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:18:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:18:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:18:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:18:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:19:00 (none) cron.info crond[4888]: USER root pid 15750 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:19:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:19:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:19:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:19:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:20:00 (none) cron.info crond[4888]: USER root pid 15838 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:20:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:20:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:20:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:20:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:21:00 (none) cron.info crond[4888]: USER root pid 15922 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:21:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:21:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:21:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:21:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:22:00 (none) cron.info crond[4888]: USER root pid 15996 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:22:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:22:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:22:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:22:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:23:00 (none) cron.info crond[4888]: USER root pid 16072 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:23:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:23:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:23:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:23:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:24:00 (none) cron.info crond[4888]: USER root pid 16150 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:24:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:24:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:24:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:24:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:25:00 (none) cron.info crond[4888]: USER root pid 16238 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:25:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:25:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:25:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:25:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:26:00 (none) cron.info crond[4888]: USER root pid 16313 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:26:07 (none) kern.info kernel: [1386075.165842] [DRV_LPM_DEVMNG]lpm dsmi_stats: setTops(0x0,0x0) setLptest(0x0,0x0) setIdleSwitch(0x0,0x0) getAicVoltCurr(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165849] [DRV_LPM_DEVMNG] getHybridVoltCurr(0x0,0x0) getCpuVoltCurr(0x0,0x0) getDdrVoltCurr(0x0,0x0) getAcgCnt(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165852] [DRV_LPM_DEVMNG] getIdleStatus(0x0,0x0) getCurrentTops(0x0,0x0) getAllTops(0x0,0x0) getAicFreqReduc(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165856] [DRV_LPM_DEVMNG] getPower(0x0,0x0) setSocStress(0x0,0x0) getAicCpm(0x0,0x0) getBusCpm(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165858] [DRV_LPM_DEVMNG] setSocStressInner(0x0,0x0) getAicCpmInner(0x0,0x0) getBusCpmInner(0x0,0x0) getLptest(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165861] [DRV_LPM_DEVMNG] getTempDdr(0x0,0x0) getTempDdrThold(0x0,0x0) getTempSocThold(0x0,0x0) getTempSocMinThold(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165864] [DRV_LPM_DEVMNG] setSuspend(0x0,0x0) getLpStatus(0x0,0x0) getFreq(0x13ba7,0x0) getTemp(0x78b,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165866] [DRV_LPM_DEVMNG] getVrdInfo(0x0,0x0)
+May 29 19:26:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:26:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:26:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:26:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:27:00 (none) cron.info crond[4888]: USER root pid 16391 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:27:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:27:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:27:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:27:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:28:00 (none) cron.info crond[4888]: USER root pid 16465 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:28:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:28:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:28:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:28:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:29:00 (none) cron.info crond[4888]: USER root pid 16555 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:29:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:29:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:29:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:29:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:30:00 (none) cron.info crond[4888]: USER root pid 16633 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:30:10 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:30:10 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth5 29.106.50.83 d8:59:82:2c:2e:f8
+May 29 19:30:10 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:30:10 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:31:00 (none) cron.info crond[4888]: USER root pid 16707 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:31:06 (none) authpriv.notice sudo: pam_unix(sudo:account): expired password for user HwHiAiUser (root enforced)
+May 29 19:31:06 (none) authpriv.notice sudo: HwHiAiUser : PWD=/dev ; USER=root ; COMMAND=/usr/bin/cp -RPn /var/log/messages /home/HwHiAiUser/ide_daemon/
+May 29 19:31:06 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)

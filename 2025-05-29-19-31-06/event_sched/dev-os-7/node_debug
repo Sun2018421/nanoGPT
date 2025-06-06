@@ -1,0 +1,2 @@
+0x0
+bit0: clear node event trace, bit1:record cpu usage and event num sample data, bit2: support trigger sched event trace, bit3: record all eventtrace (only valid when bit2 = 1)

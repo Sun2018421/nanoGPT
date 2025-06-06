@@ -1,0 +1,78 @@
+x0                              : 0000000000000000
+x1                              : 0000000000000000
+x30                             : 0000000000000000
+x2                              : 0000000000000000
+x3                              : 0000000000000000
+x4                              : 0000000000000000
+x5                              : 0000000000000000
+x6                              : 0000000000000000
+x7                              : 0000000000000000
+x8                              : 0000000000000000
+x9                              : 0000000000000000
+x10                             : 0000000000000000
+x11                             : 0000000000000000
+x12                             : 0000000000000000
+x13                             : 0000000000000000
+x14                             : 0000000000000000
+x15                             : 0000000000000000
+x16                             : 0000000000000000
+x17                             : 0000000000000000
+x18                             : 0000000000000000
+x19                             : 0000000000000000
+x20                             : 0000000000000000
+x21                             : 0000000000000000
+x22                             : 0000000000000000
+x23                             : 0000000000000000
+x24                             : 0000000000000000
+x25                             : 0000000000000000
+x26                             : 0000000000000000
+x27                             : 0000000000000000
+x28                             : 0000000000000000
+x29                             : 0000000000000000
+scr_el3                         : 0000000000000000
+sctlr_el3                       : 0000000000000000
+cptr_el3                        : 0000000000000000
+tcr_el3                         : 0000000000000000
+daif                            : 0000000000000000
+mair_el3                        : 0000000000000000
+spsr_el3                        : 0000000000000000
+elr_el3                         : 0000000000000000
+ttbr0_el3                       : 0000000000000000
+esr_el3                         : 0000000000000000
+far_el3                         : 0000000000000000
+log info:
+NOTICE:  Booting Trusted Firmware
+NOTICE:  BL1: 
+NOTICE:  BL1: Built : 
+NOTICE:  BL1: Booting BL2
+NOTICE:  BL2: 
+NOTICE:  BL2: Built : 
+NOTICE:  BL1: Booting BL31
+NOTICE:  BL31: 
+NOTICE:  BL31: Built : 
+NOTICE:  HSM boot keypoint 0x7f8ff!
+NOTICE:  not support enc 0xffffffff!
+NOTICE:  #TEE Start#
+NOTICE:  #TEE End#
+NOTICE:  [domain on]:mpidr 500100
+NOTICE:  [hw_plat_core_power_on]:[126L] mpidr 0x500100, socket_id 5, die_id 0 cluster_id 0, core_id 1
+NOTICE:  tmp = 3
+NOTICE:  [domain on]:mpidr 500200
+NOTICE:  [hw_plat_core_power_on]:[126L] mpidr 0x500200, socket_id 5, die_id 0 cluster_id 0, core_id 2
+NOTICE:  tmp = 7
+NOTICE:  [domain on]:mpidr 500300
+NOTICE:  [hw_plat_core_power_on]:[126L] mpidr 0x500300, socket_id 5, die_id 0 cluster_id 0, core_id 3
+NOTICE:  tmp = f
+NOTICE:  [domain on]:mpidr 510000
+NOTICE:  [hw_plat_core_power_on]:[126L] mpidr 0x510000, socket_id 5, die_id 0 cluster_id 1, core_id 0
+NOTICE:  tmp = 1
+NOTICE:  [domain on]:mpidr 510100
+NOTICE:  [hw_plat_core_power_on]:[126L] mpidr 0x510100, socket_id 5, die_id 0 cluster_id 1, core_id 1
+NOTICE:  tmp = 3
+NOTICE:  [domain on]:mpidr 510200
+NOTICE:  [hw_plat_core_power_on]:[126L] mpidr 0x510200, socket_id 5, die_id 0 cluster_id 1, core_id 2
+NOTICE:  tmp = 7
+NOTICE:  [domain on]:mpidr 510300
+NOTICE:  [hw_plat_core_power_on]:[126L] mpidr 0x510300, socket_id 5, die_id 0 cluster_id 1, core_id 3
+NOTICE:  tmp = f
+bak log info: no available information.

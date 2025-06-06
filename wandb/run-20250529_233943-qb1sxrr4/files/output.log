@@ -1,0 +1,69 @@
+step 0: train loss 10.9886, val loss 10.9898
+iter 0: loss 10.9934, time 18148.58ms, mfu -100.00%
+iter 10: loss 10.3073, time 563.85ms, mfu 29.85%
+iter 20: loss 9.7320, time 562.84ms, mfu 29.86%
+iter 30: loss 9.4688, time 561.84ms, mfu 29.87%
+iter 40: loss 9.1553, time 565.19ms, mfu 29.86%
+iter 50: loss 8.9410, time 561.23ms, mfu 29.87%
+iter 60: loss 8.8011, time 566.08ms, mfu 29.86%
+iter 70: loss 8.5037, time 560.00ms, mfu 29.88%
+iter 80: loss 8.3585, time 565.72ms, mfu 29.87%
+iter 90: loss 8.1172, time 560.89ms, mfu 29.88%
+iter 100: loss 7.9681, time 564.28ms, mfu 29.88%
+iter 110: loss 7.9525, time 564.12ms, mfu 29.87%
+iter 120: loss 7.5525, time 561.07ms, mfu 29.88%
+iter 130: loss 7.3072, time 566.41ms, mfu 29.87%
+iter 140: loss 7.3460, time 560.94ms, mfu 29.88%
+iter 150: loss 6.9742, time 565.44ms, mfu 29.87%
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Ascend/ascend-toolkit/latest/python/site-packages/tbe/common/repository_manager/utils/multiprocess_util.py", line 91, in run
+    key, func, args, kwargs = self.task_q.get(timeout=TIMEOUT)
+  File "<string>", line 2, in get
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/multiprocessing/managers.py", line 818, in _callmethod
+    kind, result = conn.recv()
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+Traceback (most recent call last):
+  File "/home/sunxiaofeng/nanoGPT/train.py", line 313, in <module>
+    scaler.step(optimizer)
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch_npu/npu/amp/grad_scaler.py", line 359, in step
+    return optimizer.step(*args, **kwargs)
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/adamw.py", line 227, in step
+    adamw(
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/adamw.py", line 767, in adamw
+    func(
+  File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/adamw.py", line 604, in _multi_tensor_adamw
+    torch._foreach_addcdiv_(
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/sunxiaofeng/nanoGPT/train.py", line 313, in <module>
+[rank0]:     scaler.step(optimizer)
+[rank0]:   File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch_npu/npu/amp/grad_scaler.py", line 359, in step
+[rank0]:     return optimizer.step(*args, **kwargs)
+[rank0]:   File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+[rank0]:     out = func(*args, **kwargs)
+[rank0]:   File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+[rank0]:     ret = func(self, *args, **kwargs)
+[rank0]:   File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/adamw.py", line 227, in step
+[rank0]:     adamw(
+[rank0]:   File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/adamw.py", line 767, in adamw
+[rank0]:     func(
+[rank0]:   File "/root/anaconda3/envs/gpt2/lib/python3.10/site-packages/torch/optim/adamw.py", line 604, in _multi_tensor_adamw
+[rank0]:     torch._foreach_addcdiv_(
+[rank0]: KeyboardInterrupt

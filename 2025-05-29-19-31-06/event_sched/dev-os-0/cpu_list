@@ -1,0 +1,7 @@
+cpuid,sched_mode,sched stat:sched_event_num,check_sched_num,proc_exit_drop_num,exclusive_sched_num,timeout_cnt
+2,sched,4,0,0,0,0
+3,sched,5,0,0,0,0
+4,sched,6,0,0,0,0
+5,sched,6,0,0,0,0
+6,sched,16,0,0,0,0
+7,sched,14,0,0,0,0

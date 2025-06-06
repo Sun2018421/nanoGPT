@@ -1,0 +1,278 @@
+[EVENT] ATRACE(4759,slogd):2025-05-13-18:25:06.572.121 [trace_server_socket.c:192](tid:4792) trace server socket thread start, socket path = /usr/slog//socket_trace.
+[EVENT] ATRACE(4759,slogd):2025-05-13-18:25:06.572.472 [ktrace_ts.c:166](tid:4791) ktrace ts thread start, local device id = 0, physical device id = 3.
+[EVENT] ATRACE(4759,slogd):2025-05-13-18:25:06.572.794 [trace_send_mgr.c:84](tid:4790) trace server send thread start.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.390.509 [main.cpp:132][main][tid:4939] TSDaemon start begin
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.390.550 [main.cpp:113][ParseArgs][tid:4939] Begin to parse args.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.391.234 [tsdaemon.cpp:1663][SetLogLevel][tid:4939] [TSDaemon] TSD set log level success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.391.421 [tsdaemon.cpp:2251][Start][tid:4939] [TSDaemon] TSD Start enter
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.391.430 [tsdaemon.cpp:2157][AddToFrameWorkGroup][tid:4939] no need to add frameworkgroup
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.391.440 [tsdaemon.cpp:1890][EzcomClientOpen][tid:4939] [Tsdaemon] It is not Mdc env.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.391.446 [tsdaemon.cpp:1932][PreInit][tid:4939] [TsdEVENT] EzcomClientOpen Success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.391.466 [tsdaemon.cpp:1936][PreInit][tid:4939] not asan, check and clean process.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.391.492 [tsdaemon.cpp:1338][GetProcessPidByName][tid:4939] [TSDaemon] GetProcessPidByName() cmd:pidof hccp_service.bin aicpu_scheduler aicpu_custom_scheduler queue_schedule udf_executor npu_executor_main
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.450.031 [tsdaemon.cpp:1346][GetProcessPidByName][tid:4939] [TSDaemon] Maybe subprocess is not exit
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.450.302 [tsdaemon.cpp:1947][PreInit][tid:4939] [TsdEVENT] TsdDrvManager init success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.450.335 [process_util_server.cpp:128][SetThreadAffinity][tid:4939] begin call pthread_setaffinity_np threadId=255086203611296
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.450.360 [tsdaemon.cpp:1953][PreInit][tid:4939] [TsdEVENT] BindCtrlCpu success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.450.469 [tsdaemon.cpp:1960][PreInit][tid:4939] [TsdEVENT] SendVfId2Drv success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.450.487 [tsdaemon.cpp:1747][SetMaxProcessPerDevice][tid:4939] Not found AICPU_MAX_NUM in env.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.450.505 [tsdaemon.cpp:2135][RemoveResidualFile][tid:4939] RemoveResidualFile enter
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.450.519 [tsdaemon.cpp:935][CleanAicpuSoFile][tid:4939] [TSDaemon] CleanAicpuSoFile vDeviceId[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.468.970 [package_worker.cpp:1267][RemoveWholeResidualFile][tid:4939] enter into RemoveWholeResidualFile deviceId:0, vfId:0
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.481.638 [package_worker.cpp:1281][RemoveWholeResidualFile][tid:4939] RemoveRuntime removecmd:rm -rf /home/HwHiAiUser/hs/0/runtime/* && mkdir -p /home/HwHiAiUser/hs/0/runtime/lib64/
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.121 [package_worker.cpp:1291][RemoveWholeResidualFile][tid:4939] RemoveResidualFileOnStart removecmd:rm -rf /home/HwHiAiUser/hs/0/runtime/* && mkdir -p /home/HwHiAiUser/hs/0/runtime/lib64/ && rm -rf /home/HwHiAiUser/hs/0/opp && rm -rf /home/HwHiAiUser/hs/0/ops && rm -rf /home/HwHiAiUser/hs/0/omfile/*
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.185 [tsdaemon.cpp:2147][RemoveResidualFile][tid:4939] RemoveResidualFile finish
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.251 [tsdaemon.cpp:2219][ReadSubProcHashValue][tid:4939] read data:aicpu_scheduler=0edf5243b4a76d205630f955defb9d1e4916347a0979fce98e823a871732bf4f
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.273 [tsdaemon.cpp:2189][InsertSubProcHashValue][tid:4939] insert hash value key:1, value:0edf5243b4a76d205630f955defb9d1e4916347a0979fce98e823a871732bf4f
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.289 [tsdaemon.cpp:2219][ReadSubProcHashValue][tid:4939] read data:aicpu_custom_scheduler=211ca1ba7720f9fbcb3d3b03a2957e0a1b33255e575c5c383e9afd65d637fc40
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.303 [tsdaemon.cpp:2189][InsertSubProcHashValue][tid:4939] insert hash value key:2, value:211ca1ba7720f9fbcb3d3b03a2957e0a1b33255e575c5c383e9afd65d637fc40
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.316 [tsdaemon.cpp:2219][ReadSubProcHashValue][tid:4939] read data:queue_schedule=bbb1d0da95c19bc8c3b9039e0c078fe4218241d9ba87ca57ccb9c2c54941c2b1
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.330 [tsdaemon.cpp:2189][InsertSubProcHashValue][tid:4939] insert hash value key:3, value:bbb1d0da95c19bc8c3b9039e0c078fe4218241d9ba87ca57ccb9c2c54941c2b1
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.342 [tsdaemon.cpp:2219][ReadSubProcHashValue][tid:4939] read data:hccp_service.bin=189aadb40d7063be824f34ded127411d7bc15e5b925a29dffd9c1669c71025a0
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.356 [tsdaemon.cpp:2189][InsertSubProcHashValue][tid:4939] insert hash value key:0, value:189aadb40d7063be824f34ded127411d7bc15e5b925a29dffd9c1669c71025a0
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.376 [tsdaemon.cpp:2256][Start][tid:4939] [TsdEVENT] PreInit Success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.440 [inotify_watcher.cpp:157][StartWatch][tid:4939] inotify_add_watch uniqueVfId[0] fd[17] path[/home/HwHiAiUser/hdcd/device0] wd[1] dev[0] vf[0] succ
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.502 [tsdaemon.cpp:1689][InitInotifyWatcher][tid:4939] [TsdEVENT] Creat physical inotify watcher success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.518 [tsdaemon.cpp:1881][RunSpecialProcess][tid:4939] [TsdEVENT] RunSpecialProcess process success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.532 [tsdaemon.cpp:2260][Start][tid:4939] [TsdEVENT] RunSpecialProcess Success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.546 [stub_nhostdeploy.cpp:106][InitTsdHdcSer][tid:4939] [TsdEVENT] InitTsdHdcSer [deviceNum:1]
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.506.655 [tsdaemon.cpp:2264][Start][tid:4939] [TsdEVENT] Init HdcServer success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.507.529 [tsdaemon.cpp:2268][Start][tid:4939] [TsdEVENT] Init TsdEventServer success
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.507.589 [tsdaemon.cpp:1871][RunSubThread][tid:4939] [TsdEVENT] Start thread success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.507.632 [tsdaemon.cpp:1871][RunSubThread][tid:4939] [TsdEVENT] Start thread success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.507.647 [tsdaemon.cpp:2271][Start][tid:4939] [TsdEVENT] TsdRunSubThread finish
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.507.694 [tsdaemon.cpp:2274][Start][tid:4939] [TsdEVENT] LoadFileAndSetEnv finish
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.507.710 [tsdaemon.cpp:1904][SendStartMsgToMaster][tid:4939] [Tsdaemon] It is not Mdc env
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.507.723 [tsdaemon.cpp:2278][Start][tid:4939] [TsdEVENT] tsdaemon start success
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.507.736 [main.cpp:149][main][tid:4939] [TSDaemon] Init success And keep it Running!!!
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.507.766 [stub_nhostdeploy.cpp:57][SendTsdHeartbeat][tid:4991] [TSDaemon] Start send tsdaemon heart beat, vfMode=0
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.507.801 [appmon_client.cpp:252][Init][tid:4991] [TSDaemon]Group Owner Client Success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.507.963 [tsdaemon.cpp:1806][InitSysMonitor][tid:4990] Open /proc/sysmonitor success
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.508.002 [tsd_event_server.cpp:155][Work][tid:4989] TsdEventServer begin start thread 0
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.508.040 [tsd_event_server.cpp:160][Work][tid:4989] pf cpuIds size 1
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.508.065 [process_util_server.cpp:128][SetThreadAffinity][tid:4989] begin call pthread_setaffinity_np threadId=255086178086912
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.508.117 [tsd_event_server.cpp:182][Work][tid:4989] [TsdEventServer] subscribe event on dev[0] group[0] tid[0] success.
+[EVENT] TDT(4939,tsdaemon):2025-05-13-18:25:09.629.356 [appmon_client.cpp:278][Regist][tid:4991] [TSDaemon]Group Owner Client Heart Beat Regist Success.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.390.249 [hdc_server.cpp:139][RecvData][tid:11814] HdcServer::RecvData deviceId = 0 thread = 11814, sessionId[1]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.390.332 [tsdaemon.cpp:954][ProcessTestMsg][tid:11814] server has recv test data, hostPid[1264440],sessionId[1].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.390.356 [version_verify.cpp:88][ParseVersionInfo][tid:11814] VersionVerify: pass client version info success
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.390.365 [version_verify.cpp:34][SetVersionInfo][tid:11814] VersionVerify: send client version to server
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.390.375 [version_verify.cpp:51][SetVersionInfo][tid:11814] send feature_info:{msg_type:35, features:{check before send aicpu package,}}
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.390.384 [version_verify.cpp:51][SetVersionInfo][tid:11814] send feature_info:{msg_type:37, features:{check before send open qs message,}}
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.390.411 [tsdaemon.cpp:967][ProcessTestMsg][tid:11814] [TSDaemon] Send test response to client success,sessionId[1]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.391.454 [tsdaemon.cpp:1276][ProcessPackageInfoMsg][tid:11814] server has recv package info request, sessionId[1].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.391.475 [version_verify.cpp:113][SpecialFeatureCheck][tid:11814] VersionVerify: previous type[36], supported
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.391.493 [hdc_server.cpp:462][ClearSingleSession][tid:11814] [HdcServer] start to ClearSingleSession sessionId=1
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.391.546 [tsdaemon.cpp:1296][ProcessPackageInfoMsg][tid:11814] Send package check result to client success, sessionId[1]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.391.555 [hdc_server.cpp:343][GetHdcSession][tid:11814] HdcServer::GetHdcSession(): the 1 session is not exist
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.391.561 [hdc_common.cpp:241][RecvMsg][tid:11814] [TsdEVENT] GetHdcSession() fail
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.391.568 [hdc_server.cpp:167][RecvData][tid:11814] recv msg failed, sessionId[1], deviceId[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.391.574 [hdc_server.cpp:190][RecvData][tid:11814] [deviceId=0][sessionId=1] RecvData has exit
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.391.580 [hdc_server.cpp:462][ClearSingleSession][tid:11814] [HdcServer] start to ClearSingleSession sessionId=1
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.466.879 [inotify_watcher.cpp:307][HandleEvent][tid:4987] find fileName[1264440_Ascend-aicpu_syskernels.tar.gz], ready to load
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.466.945 [inotify_watcher.cpp:316][HandleEvent][tid:4987] begin load aicpu package path[/home/HwHiAiUser/hdcd/device0/] fileName[1264440_Ascend-aicpu_syskernels.tar.gz]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.467.014 [package_worker.cpp:202][LoadAICPUPackageForProcessMode][tid:4987] Package checkcode[57209377], current env checkcode[0], file[/home/HwHiAiUser/hdcd/device0/1264440_Ascend-aicpu_syskernels.tar.gz], dev[0], vf[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.473.245 [hdc_server.cpp:139][RecvData][tid:11818] HdcServer::RecvData deviceId = 0 thread = 11818, sessionId[2]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.473.346 [tsdaemon.cpp:954][ProcessTestMsg][tid:11818] server has recv test data, hostPid[1264440],sessionId[2].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.473.384 [version_verify.cpp:88][ParseVersionInfo][tid:11818] VersionVerify: pass client version info success
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.473.401 [version_verify.cpp:34][SetVersionInfo][tid:11818] VersionVerify: send client version to server
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.473.419 [version_verify.cpp:51][SetVersionInfo][tid:11818] send feature_info:{msg_type:35, features:{check before send aicpu package,}}
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.473.436 [version_verify.cpp:51][SetVersionInfo][tid:11818] send feature_info:{msg_type:37, features:{check before send open qs message,}}
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.473.472 [tsdaemon.cpp:967][ProcessTestMsg][tid:11818] [TSDaemon] Send test response to client success,sessionId[2]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.474.543 [tsdaemon.cpp:805][FmkToTsdMsg][tid:11818] [TsdEVENT]FmkToTsdMsg device index in os[0] msg[6] sessionId[2] realDev[3] fmkSignPid[1264440] profilingMode[0] rankSize[0] startHccp[0] startCp[1] checkCode[57209377] logLevel[103] vfId[0].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.474.583 [tsdaemon.cpp:299][TsdStartProcess][tid:11818] [TsdEVENT]From FMK Start >>>>>>>>>> deviceId[0] sessionId[2] realDev[3] fmkPid[1264440] rankSize[0] vfId[0] startCp[1] startHccp[0] startQS[0] msgType[6].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.474.602 [tsdaemon.cpp:450][CreateTsdImpl][tid:11818] before create impl dev:0,vfid:0,sid:2,fmkpid:1264440,ranksize:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.474.624 [tsdaemon.cpp:454][CreateTsdImpl][tid:11818] enter impl map dev:0,vfid:0,sid:2,fmkpid:1264440, mapsize:0, ranksize:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.474.645 [tsdaemon.cpp:467][CreateTsdImpl][tid:11818] after impl map delete close node dev:0,vfid:0,sid:2,fmkpid:1264440, mapsize:0, ranksize:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.474.681 [tsdaemon.cpp:544][MakeTsdImplNoThrow][tid:11818] [TSDaemon] Insert TsdImpl device index in os[0] sess[2] rank size[0] vfId[0] hostPid[1264440] in TsdImpl map
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.474.699 [tsd_common.cpp:242][StartSubProcess][tid:11818] [TSDaemon] device index in os[0] sessId[2] fmkPid[1264440] rankSize[0] vfId[0] uniqueVfId[0].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.474.731 [tsd_common.cpp:2286][SaveProcessConfig][tid:11818] [TSDaemon] begin check aicpu package in os[0] vfId[0] checkCode[57209377]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:17.545.996 [package_worker.cpp:433][RenameAICPUPackage][tid:4987] Remove file: [/home/HwHiAiUser/hdcd/device0/1264440_Ascend-aicpu_syskernels.tar.gz] success
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:18.262.813 [tsdaemon.cpp:1585][CheckEventClientHeartbeat][tid:4990] heart beat running impl size:1
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.200.936 [package_worker.cpp:709][GetPackageName][tid:4987] PackageInnerFile is [/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/version.info], srcPackageName is [Ascend-aicpu_syskernels.tar.gz]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.201.124 [package_worker.cpp:692][MoveSoToSandBox][tid:4987] Rename file [/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/libtensorflow.so] to [/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/sand_box/libtensorflow.so] success.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.209.479 [package_worker.cpp:396][RemoveFile][tid:4987] Remove file: [/home/HwHiAiUser/aicpu_kernels/vf0_1264440_Ascend-aicpu_syskernels.tar.gz] success
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.209.521 [package_worker.cpp:240][LoadAICPUPackageForProcessMode][tid:4987] Get curCheckCode[57209377] path[/home/HwHiAiUser/hdcd/device0/1264440_Ascend-aicpu_syskernels.tar.gz], deviceId[0], vfId[0], uniqueVfId[0].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.209.555 [package_worker.cpp:394][RemoveFile][tid:4987] Remove file: [/usr/lib64/libtensorflow.so] not success, reason=
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.209.577 [package_worker.cpp:394][RemoveFile][tid:4987] Remove file: [/usr/lib64/aicpu_kernels/libaicpu_kernels.so] not success, reason=
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.209.595 [package_worker.cpp:394][RemoveFile][tid:4987] Remove file: [/usr/lib64/aicpu_kernels/libcpu_kernels.so] not success, reason=
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.209.612 [package_worker.cpp:394][RemoveFile][tid:4987] Remove file: [/usr/lib64/aicpu_kernels/libtensorflow.so] not success, reason=
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.209.629 [package_worker.cpp:394][RemoveFile][tid:4987] Remove file: [/usr/lib64/aicpu_kernels/libtf_kernels.so] not success, reason=
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.209.645 [package_worker.cpp:394][RemoveFile][tid:4987] Remove file: [/usr/lib64/aicpu_kernels/libtorch_cpu.so] not success, reason=
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.209.661 [package_worker.cpp:394][RemoveFile][tid:4987] Remove file: [/usr/lib64/aicpu_kernels/libc10.so] not success, reason=
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.209.689 [tsd_common.cpp:2299][SaveProcessConfig][tid:11818] [TSDaemon] check aicpu package in os[0] vfId[0] checkCode[57209377] success
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.209.720 [tsd_common.cpp:2739][VerifySubProcHashData][tid:11818] baseHashValue:0edf5243b4a76d205630f955defb9d1e4916347a0979fce98e823a871732bf4f, procfile:/var/aicpu_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.220.448 [tsd_common.cpp:2760][VerifySubProcHashData][tid:11818] queryHash:0edf5243b4a76d205630f955defb9d1e4916347a0979fce98e823a871732bf4f  /var/aicpu_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.220.496 [tsd_common.cpp:2767][VerifySubProcHashData][tid:11818] hash value veriy ok, base:0edf5243b4a76d205630f955defb9d1e4916347a0979fce98e823a871732bf4f, cur:0edf5243b4a76d205630f955defb9d1e4916347a0979fce98e823a871732bf4f  /var/aicpu_scheduler , name:/var/aicpu_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.220.671 [tsd_common.cpp:2739][VerifySubProcHashData][tid:11826] baseHashValue:211ca1ba7720f9fbcb3d3b03a2957e0a1b33255e575c5c383e9afd65d637fc40, procfile:/var/aicpu_custom_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.230.424 [tsd_common.cpp:2760][VerifySubProcHashData][tid:11826] queryHash:211ca1ba7720f9fbcb3d3b03a2957e0a1b33255e575c5c383e9afd65d637fc40  /var/aicpu_custom_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.230.473 [tsd_common.cpp:2767][VerifySubProcHashData][tid:11826] hash value veriy ok, base:211ca1ba7720f9fbcb3d3b03a2957e0a1b33255e575c5c383e9afd65d637fc40, cur:211ca1ba7720f9fbcb3d3b03a2957e0a1b33255e575c5c383e9afd65d637fc40  /var/aicpu_custom_scheduler , name:/var/aicpu_custom_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.230.533 [tsd_common.cpp:1372][ExecuteStart][tid:11826] verify cust finish
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.230.587 [tsd_common.cpp:1526][ForkSubProcess][tid:11826] processInfo.envPath:LD_LIBRARY_PATH=/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/:/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/sand_box/:/home/HwHiAiUser/hs/0/runtime/lib64/:, processInfo.heterogeneousSoPath:/home/HwHiAiUser/hs/0/runtime/lib64/
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.230.612 [tsd_common.cpp:1535][ForkSubProcess][tid:11826] processInfo.envPath: LD_LIBRARY_PATH=/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/:/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/sand_box/:/home/HwHiAiUser/hs/0/runtime/lib64/:
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.230.632 [process_util_server.cpp:128][SetThreadAffinity][tid:11826] begin call pthread_setaffinity_np threadId=255086127362048
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.230.658 [process_util_server.cpp:48][StartSubProcess][tid:11826] [ProcessUtil] execute callback.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.230.672 [process_util_server.cpp:52][StartSubProcess][tid:11826] [ProcessUtil] execve path:/var/aicpu_scheduler.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.247.815 [process_util_server.cpp:364][BindHostPidAndSubProcess][tid:11826] Call drvBindHostPidsuccess device id[0], host pid[1264440], mode[0], cp type[0] vf id[0] devpid[11828]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.247.905 [tsd_common.cpp:1381][ExecuteStart][tid:11826] [TsdEVENT]#### Start TSD->SubProcess[PROC] Start Msg device index in os[0] Proc[aicpu_scheduler] fmkPid[1264440] vfId[0] fatherPid[4939] subPid[11828] #### profilingMode is[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.247.946 [tsd_common.cpp:1394][ExecuteStart][tid:11826] [TSDaemon] get pid[11828], sub process name[aicpu_sd_11828] 
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.371.547 [tsd_event_server.cpp:408][ProcessEvent][tid:4989] Begin to process tsd event.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.371.584 [tsdaemon.cpp:747][ProcessEventServerInfo][tid:4989] [ProcessEventServerInfo] deviceId[0] srcPid[11828] type[8] subEventId[8 (0:START_RSP, 1:SHUTDOWN_RSP, 2:NOTIFY_AICPUINFO, 3:NOTIFY_AICPUINFO_RSP, 4:ABNORMAL, 5:SHUTDOWN, 6:LOAD_SO)].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.371.609 [tsd_common.cpp:812][ProcessCapabilityGetEvent][tid:4989] [TsdEVENT] ProcessCapabilityGetEvent result:[1],proc[1]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.371.624 [tsd_event_server.cpp:445][ProcessEvent][tid:4989] End to process tsd event.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.372.538 [tsd_event_server.cpp:408][ProcessEvent][tid:4989] Begin to process tsd event.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.372.563 [tsdaemon.cpp:747][ProcessEventServerInfo][tid:4989] [ProcessEventServerInfo] deviceId[0] srcPid[11828] type[0] subEventId[0 (0:START_RSP, 1:SHUTDOWN_RSP, 2:NOTIFY_AICPUINFO, 3:NOTIFY_AICPUINFO_RSP, 4:ABNORMAL, 5:SHUTDOWN, 6:LOAD_SO)].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.372.584 [tsd_common.cpp:726][ProcessStartRspEvent][tid:4989] [TsdEVENT] #### EventSer->TSD RspMsg device index in os[0] Start Rsp procType[1] ####.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.372.673 [tsd_event_server.cpp:445][ProcessEvent][tid:4989] End to process tsd event.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.372.764 [tsd_common.cpp:951][StartRspProc][tid:11844] [TSDaemon] device index in os[0] sessId[2] fmkPid[1264440] StartRspProc() [subProcPid=11828][procType=1(0:HCCP,1:COMPUTE,2:CUSTOM_COMPUTE,3.QUEUE_SCHEDULE)] ranksize:0.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.372.789 [tsd_common.cpp:1280][SendRspMsgToFmk][tid:11844] [TsdEVENT] #### Start Rsp TSD->FMK device index in os[0] sessionID[2] realDeviceId[3] vfId[0] ranksize[0]####
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.372.878 [version_verify.cpp:113][SpecialFeatureCheck][tid:11844] VersionVerify: previous type[8], supported
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.379.548 [tsdaemon.cpp:1002][ProcessGetPidQosMsg][tid:11818] [TsdEVENT] From FMK GetPidQos msg sessionid[2]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.379.578 [tsdaemon.cpp:972][SendCapabilityRspMsg][tid:11818] [TSDaemon] begin to send capability msg to client sessionId[2]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.379.596 [tsdaemon.cpp:994][SendCapabilityRspMsg][tid:11818] [TSDaemon] pid qos get success pidqos[1].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:20.379.612 [version_verify.cpp:113][SpecialFeatureCheck][tid:11818] VersionVerify: previous type[39], supported
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.399.572 [hdc_common.cpp:301][RecvHdcDefaultMsg][tid:11818] halHdcRecv() return 25
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.399.616 [hdc_server.cpp:162][RecvData][tid:11818] recv msg failed by socket closed, sessionId[2], deviceId[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.399.643 [tsd_common.cpp:562][InnerProcClean][tid:11818] [TSDaemon] device index in os[0] sessId[2] fmkPid[1264440] rankSize[0] aicpu-sd[11828] hccp[-1] qs[-1].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.399.915 [tsd_common.cpp:413][WaitPidForSubProcessByNoBlock][tid:11818] [TsdImpl] begin wait pid pid[11828],fmkPid[1264440],deviceId[0],vfId[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.410.007 [process_util_server.cpp:425][WaitPidForSubProcess][tid:11818] [TsdImpl] pid[11828] wait success, waitpid[-1] tryTimes[1]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.410.042 [tsdaemon.cpp:843][GenerateAlarmMessage][tid:11818] [TSDaemon] Tsd subprocess exit. reason=4, subProcType=1, subProcPid=11828, fmkPid=1264440
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.419.757 [tsd_common.cpp:2676][RemoveOmFile][tid:11818] cmd=rm -rf /home/HwHiAiUser/hs/0/omfile/1264440/, ret=0, reason=No child processes.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.419.815 [tsd_common.cpp:626][CustomProcClean][tid:11818] Clean custSoPath:/home/CustAiCpuUser/cust_aicpu_0_0_1264440/
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.428.171 [tsd_common.cpp:632][CustomProcClean][tid:11818] removestr:rm -rf /home/CustAiCpuUser/cust_aicpu_0_0_1264440/, ret:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.428.216 [tsd_common.cpp:637][CustomProcClean][tid:11818] [TSDaemon] device index in os[0] sessId[2] fmkPid[1264440] rankSize[0] CustomProcClean end
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.428.235 [tsd_common.cpp:1184][Destory][tid:11818] [TSDaemon] device index in os[0] sessId[2] fmkPid[1264440] rankSize[0] Destory begin
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.428.257 [tsd_common.cpp:1205][CleanTsdRcvHdcThreads][tid:11818] [TSDaemon] device index in os[0] sessId[2] fmkPid[1264440] CleanTsdRcvHdcThreads enter [threadSize=1]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.428.339 [tsd_common.cpp:1220][CleanTsdRcvHdcThreads][tid:11818] [TSDaemon] deviceIndex in os[0] sessId[2] fmkPid[1264440] CleanTsdRcvHdcThreads exit[threadSize=0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.428.358 [tsd_common.cpp:1231][CleanTsdRcvEventThreads][tid:11818] [TSDaemon] device id os[0] sessId[2] fmkPid[1264440] CleanTsdRcvEventThreads enter [threadSize=1]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.428.375 [tsd_common.cpp:1245][CleanTsdRcvEventThreads][tid:11818] [TSDaemon] device id os[0] sessId[2] fmkPid[1264440] CleanTsdRcvEventThreads exit [threadSize=0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.428.391 [tsd_common.cpp:562][InnerProcClean][tid:11818] [TSDaemon] device index in os[0] sessId[2] fmkPid[1264440] rankSize[0] aicpu-sd[-1] hccp[-1] qs[-1].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.436.442 [tsd_common.cpp:2676][RemoveOmFile][tid:11818] cmd=rm -rf /home/HwHiAiUser/hs/0/omfile/1264440/, ret=0, reason=No such file or directory.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.436.494 [tsd_common.cpp:626][CustomProcClean][tid:11818] Clean custSoPath:/home/CustAiCpuUser/cust_aicpu_0_0_1264440/
+[EVENT] ATRACE(4759,slogd):2025-05-29-18:49:23.442.734 [trace_session_mgr.c:156](tid:4790) handle is invalid, release session finished, pid = 1264440
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.444.755 [tsd_common.cpp:632][CustomProcClean][tid:11818] removestr:rm -rf /home/CustAiCpuUser/cust_aicpu_0_0_1264440/, ret:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.444.794 [tsd_common.cpp:637][CustomProcClean][tid:11818] [TSDaemon] device index in os[0] sessId[2] fmkPid[1264440] rankSize[0] CustomProcClean end
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.444.814 [tsd_common.cpp:1192][Destory][tid:11818] [TSDaemon] device index in os[0] sessId[2] fmkPid[1264440] rankSize[0] Destory finish
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.444.833 [udf_safemanage.cpp:170][StopAllUdfByPm][tid:11818] udf pid map is emtpy no need to clean
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.444.862 [hdc_server.cpp:190][RecvData][tid:11818] [deviceId=0][sessionId=2] RecvData has exit
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:49:23.444.877 [hdc_server.cpp:462][ClearSingleSession][tid:11818] [HdcServer] start to ClearSingleSession sessionId=2
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.576.009 [hdc_server.cpp:139][RecvData][tid:12066] HdcServer::RecvData deviceId = 0 thread = 12066, sessionId[3]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.576.074 [tsdaemon.cpp:954][ProcessTestMsg][tid:12066] server has recv test data, hostPid[1268464],sessionId[3].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.576.099 [version_verify.cpp:88][ParseVersionInfo][tid:12066] VersionVerify: pass client version info success
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.576.107 [version_verify.cpp:34][SetVersionInfo][tid:12066] VersionVerify: send client version to server
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.576.117 [version_verify.cpp:51][SetVersionInfo][tid:12066] send feature_info:{msg_type:35, features:{check before send aicpu package,}}
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.576.124 [version_verify.cpp:51][SetVersionInfo][tid:12066] send feature_info:{msg_type:37, features:{check before send open qs message,}}
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.576.150 [tsdaemon.cpp:967][ProcessTestMsg][tid:12066] [TSDaemon] Send test response to client success,sessionId[3]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.192 [tsdaemon.cpp:1276][ProcessPackageInfoMsg][tid:12066] server has recv package info request, sessionId[3].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.211 [version_verify.cpp:113][SpecialFeatureCheck][tid:12066] VersionVerify: previous type[36], supported
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.229 [hdc_server.cpp:462][ClearSingleSession][tid:12066] [HdcServer] start to ClearSingleSession sessionId=3
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.289 [tsdaemon.cpp:1296][ProcessPackageInfoMsg][tid:12066] Send package check result to client success, sessionId[3]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.299 [hdc_server.cpp:343][GetHdcSession][tid:12066] HdcServer::GetHdcSession(): the 3 session is not exist
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.305 [hdc_common.cpp:241][RecvMsg][tid:12066] [TsdEVENT] GetHdcSession() fail
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.312 [hdc_server.cpp:167][RecvData][tid:12066] recv msg failed, sessionId[3], deviceId[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.317 [hdc_server.cpp:190][RecvData][tid:12066] [deviceId=0][sessionId=3] RecvData has exit
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.323 [hdc_server.cpp:462][ClearSingleSession][tid:12066] [HdcServer] start to ClearSingleSession sessionId=3
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.492 [hdc_server.cpp:139][RecvData][tid:12067] HdcServer::RecvData deviceId = 0 thread = 12067, sessionId[4]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.520 [tsdaemon.cpp:954][ProcessTestMsg][tid:12067] server has recv test data, hostPid[1268464],sessionId[4].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.532 [version_verify.cpp:88][ParseVersionInfo][tid:12067] VersionVerify: pass client version info success
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.539 [version_verify.cpp:34][SetVersionInfo][tid:12067] VersionVerify: send client version to server
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.547 [version_verify.cpp:51][SetVersionInfo][tid:12067] send feature_info:{msg_type:35, features:{check before send aicpu package,}}
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.554 [version_verify.cpp:51][SetVersionInfo][tid:12067] send feature_info:{msg_type:37, features:{check before send open qs message,}}
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.577.570 [tsdaemon.cpp:967][ProcessTestMsg][tid:12067] [TSDaemon] Send test response to client success,sessionId[4]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.578.612 [tsdaemon.cpp:805][FmkToTsdMsg][tid:12067] [TsdEVENT]FmkToTsdMsg device index in os[0] msg[6] sessionId[4] realDev[3] fmkSignPid[1268464] profilingMode[0] rankSize[0] startHccp[0] startCp[1] checkCode[57209377] logLevel[103] vfId[0].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.578.626 [tsdaemon.cpp:299][TsdStartProcess][tid:12067] [TsdEVENT]From FMK Start >>>>>>>>>> deviceId[0] sessionId[4] realDev[3] fmkPid[1268464] rankSize[0] vfId[0] startCp[1] startHccp[0] startQS[0] msgType[6].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.578.635 [tsdaemon.cpp:450][CreateTsdImpl][tid:12067] before create impl dev:0,vfid:0,sid:4,fmkpid:1268464,ranksize:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.578.645 [tsdaemon.cpp:454][CreateTsdImpl][tid:12067] enter impl map dev:0,vfid:0,sid:4,fmkpid:1268464, mapsize:0, ranksize:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.578.662 [tsdaemon.cpp:467][CreateTsdImpl][tid:12067] after impl map delete close node dev:0,vfid:0,sid:4,fmkpid:1268464, mapsize:0, ranksize:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.578.688 [tsdaemon.cpp:544][MakeTsdImplNoThrow][tid:12067] [TSDaemon] Insert TsdImpl device index in os[0] sess[4] rank size[0] vfId[0] hostPid[1268464] in TsdImpl map
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.578.699 [tsd_common.cpp:242][StartSubProcess][tid:12067] [TSDaemon] device index in os[0] sessId[4] fmkPid[1268464] rankSize[0] vfId[0] uniqueVfId[0].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.578.725 [tsd_common.cpp:2286][SaveProcessConfig][tid:12067] [TSDaemon] begin check aicpu package in os[0] vfId[0] checkCode[57209377]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.578.734 [tsd_common.cpp:2299][SaveProcessConfig][tid:12067] [TSDaemon] check aicpu package in os[0] vfId[0] checkCode[57209377] success
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.578.748 [tsd_common.cpp:2739][VerifySubProcHashData][tid:12067] baseHashValue:0edf5243b4a76d205630f955defb9d1e4916347a0979fce98e823a871732bf4f, procfile:/var/aicpu_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.589.271 [tsd_common.cpp:2760][VerifySubProcHashData][tid:12067] queryHash:0edf5243b4a76d205630f955defb9d1e4916347a0979fce98e823a871732bf4f  /var/aicpu_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.589.295 [tsd_common.cpp:2767][VerifySubProcHashData][tid:12067] hash value veriy ok, base:0edf5243b4a76d205630f955defb9d1e4916347a0979fce98e823a871732bf4f, cur:0edf5243b4a76d205630f955defb9d1e4916347a0979fce98e823a871732bf4f  /var/aicpu_scheduler , name:/var/aicpu_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.589.431 [tsd_common.cpp:2739][VerifySubProcHashData][tid:12069] baseHashValue:211ca1ba7720f9fbcb3d3b03a2957e0a1b33255e575c5c383e9afd65d637fc40, procfile:/var/aicpu_custom_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.599.639 [tsd_common.cpp:2760][VerifySubProcHashData][tid:12069] queryHash:211ca1ba7720f9fbcb3d3b03a2957e0a1b33255e575c5c383e9afd65d637fc40  /var/aicpu_custom_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.599.684 [tsd_common.cpp:2767][VerifySubProcHashData][tid:12069] hash value veriy ok, base:211ca1ba7720f9fbcb3d3b03a2957e0a1b33255e575c5c383e9afd65d637fc40, cur:211ca1ba7720f9fbcb3d3b03a2957e0a1b33255e575c5c383e9afd65d637fc40  /var/aicpu_custom_scheduler , name:/var/aicpu_custom_scheduler
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.599.741 [tsd_common.cpp:1372][ExecuteStart][tid:12069] verify cust finish
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.599.781 [tsd_common.cpp:1526][ForkSubProcess][tid:12069] processInfo.envPath:LD_LIBRARY_PATH=/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/:/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/sand_box/:/home/HwHiAiUser/hs/0/runtime/lib64/:, processInfo.heterogeneousSoPath:/home/HwHiAiUser/hs/0/runtime/lib64/
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.599.806 [tsd_common.cpp:1535][ForkSubProcess][tid:12069] processInfo.envPath: LD_LIBRARY_PATH=/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/:/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/sand_box/:/home/HwHiAiUser/hs/0/runtime/lib64/:
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.599.826 [process_util_server.cpp:128][SetThreadAffinity][tid:12069] begin call pthread_setaffinity_np threadId=255086118907904
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.599.852 [process_util_server.cpp:48][StartSubProcess][tid:12069] [ProcessUtil] execute callback.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.599.865 [process_util_server.cpp:52][StartSubProcess][tid:12069] [ProcessUtil] execve path:/var/aicpu_scheduler.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.620.010 [process_util_server.cpp:364][BindHostPidAndSubProcess][tid:12069] Call drvBindHostPidsuccess device id[0], host pid[1268464], mode[0], cp type[0] vf id[0] devpid[12071]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.620.081 [tsd_common.cpp:1381][ExecuteStart][tid:12069] [TsdEVENT]#### Start TSD->SubProcess[PROC] Start Msg device index in os[0] Proc[aicpu_scheduler] fmkPid[1268464] vfId[0] fatherPid[4939] subPid[12071] #### profilingMode is[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.620.115 [tsd_common.cpp:1394][ExecuteStart][tid:12069] [TSDaemon] get pid[12071], sub process name[aicpu_sd_12071] 
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.728.927 [tsd_event_server.cpp:408][ProcessEvent][tid:4989] Begin to process tsd event.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.728.963 [tsdaemon.cpp:747][ProcessEventServerInfo][tid:4989] [ProcessEventServerInfo] deviceId[0] srcPid[12071] type[8] subEventId[8 (0:START_RSP, 1:SHUTDOWN_RSP, 2:NOTIFY_AICPUINFO, 3:NOTIFY_AICPUINFO_RSP, 4:ABNORMAL, 5:SHUTDOWN, 6:LOAD_SO)].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.728.988 [tsd_common.cpp:812][ProcessCapabilityGetEvent][tid:4989] [TsdEVENT] ProcessCapabilityGetEvent result:[1],proc[1]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.729.003 [tsd_event_server.cpp:445][ProcessEvent][tid:4989] End to process tsd event.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.729.865 [tsd_event_server.cpp:408][ProcessEvent][tid:4989] Begin to process tsd event.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.729.891 [tsdaemon.cpp:747][ProcessEventServerInfo][tid:4989] [ProcessEventServerInfo] deviceId[0] srcPid[12071] type[0] subEventId[0 (0:START_RSP, 1:SHUTDOWN_RSP, 2:NOTIFY_AICPUINFO, 3:NOTIFY_AICPUINFO_RSP, 4:ABNORMAL, 5:SHUTDOWN, 6:LOAD_SO)].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.729.912 [tsd_common.cpp:726][ProcessStartRspEvent][tid:4989] [TsdEVENT] #### EventSer->TSD RspMsg device index in os[0] Start Rsp procType[1] ####.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.729.987 [tsd_event_server.cpp:445][ProcessEvent][tid:4989] End to process tsd event.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.730.074 [tsd_common.cpp:951][StartRspProc][tid:12086] [TSDaemon] device index in os[0] sessId[4] fmkPid[1268464] StartRspProc() [subProcPid=12071][procType=1(0:HCCP,1:COMPUTE,2:CUSTOM_COMPUTE,3.QUEUE_SCHEDULE)] ranksize:0.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.730.101 [tsd_common.cpp:1280][SendRspMsgToFmk][tid:12086] [TsdEVENT] #### Start Rsp TSD->FMK device index in os[0] sessionID[4] realDeviceId[3] vfId[0] ranksize[0]####
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.730.163 [version_verify.cpp:113][SpecialFeatureCheck][tid:12086] VersionVerify: previous type[8], supported
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.736.785 [tsdaemon.cpp:1002][ProcessGetPidQosMsg][tid:12067] [TsdEVENT] From FMK GetPidQos msg sessionid[4]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.736.816 [tsdaemon.cpp:972][SendCapabilityRspMsg][tid:12067] [TSDaemon] begin to send capability msg to client sessionId[4]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.736.834 [tsdaemon.cpp:994][SendCapabilityRspMsg][tid:12067] [TSDaemon] pid qos get success pidqos[1].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:03.736.849 [version_verify.cpp:113][SpecialFeatureCheck][tid:12067] VersionVerify: previous type[39], supported
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.145.751 [tsdaemon.cpp:805][FmkToTsdMsg][tid:12067] [TsdEVENT]FmkToTsdMsg device index in os[0] msg[6] sessionId[4] realDev[3] fmkSignPid[1268464] profilingMode[0] rankSize[2] startHccp[1] startCp[1] checkCode[57209377] logLevel[103] vfId[0].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.145.783 [tsdaemon.cpp:299][TsdStartProcess][tid:12067] [TsdEVENT]From FMK Start >>>>>>>>>> deviceId[0] sessionId[4] realDev[3] fmkPid[1268464] rankSize[2] vfId[0] startCp[1] startHccp[1] startQS[0] msgType[6].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.145.794 [tsdaemon.cpp:450][CreateTsdImpl][tid:12067] before create impl dev:0,vfid:0,sid:4,fmkpid:1268464,ranksize:2
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.145.806 [tsdaemon.cpp:454][CreateTsdImpl][tid:12067] enter impl map dev:0,vfid:0,sid:4,fmkpid:1268464, mapsize:1, ranksize:2
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.145.831 [tsdaemon.cpp:467][CreateTsdImpl][tid:12067] after impl map delete close node dev:0,vfid:0,sid:4,fmkpid:1268464, mapsize:1, ranksize:2
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.145.853 [tsd_common.cpp:242][StartSubProcess][tid:12067] [TSDaemon] device index in os[0] sessId[4] fmkPid[1268464] rankSize[2] vfId[0] uniqueVfId[0].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.145.874 [tsd_common.cpp:2739][VerifySubProcHashData][tid:12067] baseHashValue:189aadb40d7063be824f34ded127411d7bc15e5b925a29dffd9c1669c71025a0, procfile:/var/hccp_service.bin
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.155.891 [tsd_common.cpp:2760][VerifySubProcHashData][tid:12067] queryHash:189aadb40d7063be824f34ded127411d7bc15e5b925a29dffd9c1669c71025a0  /var/hccp_service.bin
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.155.916 [tsd_common.cpp:2767][VerifySubProcHashData][tid:12067] hash value veriy ok, base:189aadb40d7063be824f34ded127411d7bc15e5b925a29dffd9c1669c71025a0, cur:189aadb40d7063be824f34ded127411d7bc15e5b925a29dffd9c1669c71025a0  /var/hccp_service.bin , name:/var/hccp_service.bin
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.156.097 [tsd_common.cpp:1526][ForkSubProcess][tid:12102] processInfo.envPath:LD_LIBRARY_PATH=/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/:/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/sand_box/:/home/HwHiAiUser/hs/0/runtime/lib64/:, processInfo.heterogeneousSoPath:/home/HwHiAiUser/hs/0/runtime/lib64/
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.156.111 [tsd_common.cpp:1535][ForkSubProcess][tid:12102] processInfo.envPath: LD_LIBRARY_PATH=/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/:/usr/lib64/aicpu_kernels/0/aicpu_kernels_device/sand_box/:/home/HwHiAiUser/hs/0/runtime/lib64/:
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.156.122 [process_util_server.cpp:128][SetThreadAffinity][tid:12102] begin call pthread_setaffinity_np threadId=255086110453760
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.156.137 [process_util_server.cpp:50][StartSubProcess][tid:12102] [ProcessUtil] will not excute callback
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.156.144 [process_util_server.cpp:52][StartSubProcess][tid:12102] [ProcessUtil] execve path:/var/hccp_service.bin.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.175.549 [process_util_server.cpp:364][BindHostPidAndSubProcess][tid:12102] Call drvBindHostPidsuccess device id[0], host pid[1268464], mode[0], cp type[4] vf id[0] devpid[12103]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.175.625 [tsd_common.cpp:1381][ExecuteStart][tid:12102] [TsdEVENT]#### Start TSD->SubProcess[PROC] Start Msg device index in os[0] Proc[hccp_service.bin] fmkPid[1268464] vfId[0] fatherPid[4939] subPid[12103] #### profilingMode is[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:11.175.657 [tsd_common.cpp:1394][ExecuteStart][tid:12102] [TSDaemon] get pid[12103], sub process name[hccp_12103] 
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:13.594.265 [tsd_event_server.cpp:408][ProcessEvent][tid:4989] Begin to process tsd event.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:13.594.288 [tsdaemon.cpp:747][ProcessEventServerInfo][tid:4989] [ProcessEventServerInfo] deviceId[0] srcPid[12103] type[0] subEventId[0 (0:START_RSP, 1:SHUTDOWN_RSP, 2:NOTIFY_AICPUINFO, 3:NOTIFY_AICPUINFO_RSP, 4:ABNORMAL, 5:SHUTDOWN, 6:LOAD_SO)].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:13.594.302 [tsd_common.cpp:726][ProcessStartRspEvent][tid:4989] [TsdEVENT] #### EventSer->TSD RspMsg device index in os[0] Start Rsp procType[0] ####.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:13.594.365 [tsd_event_server.cpp:445][ProcessEvent][tid:4989] End to process tsd event.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:13.594.424 [tsd_common.cpp:951][StartRspProc][tid:12123] [TSDaemon] device index in os[0] sessId[4] fmkPid[1268464] StartRspProc() [subProcPid=12103][procType=0(0:HCCP,1:COMPUTE,2:CUSTOM_COMPUTE,3.QUEUE_SCHEDULE)] ranksize:2.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:13.594.439 [tsd_common.cpp:1280][SendRspMsgToFmk][tid:12123] [TsdEVENT] #### Start Rsp TSD->FMK device index in os[0] sessionID[4] realDeviceId[3] vfId[0] ranksize[2]####
+[EVENT] ATRACE(4759,slogd):2025-05-29-18:52:22.775.578 [trace_session_mgr.c:107](tid:4790) session node is timeout, pid = 1268464.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.099.014 [hdc_common.cpp:301][RecvHdcDefaultMsg][tid:12067] halHdcRecv() return 25
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.099.064 [hdc_server.cpp:162][RecvData][tid:12067] recv msg failed by socket closed, sessionId[4], deviceId[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.099.097 [tsd_common.cpp:562][InnerProcClean][tid:12067] [TSDaemon] device index in os[0] sessId[4] fmkPid[1268464] rankSize[2] aicpu-sd[12071] hccp[12103] qs[-1].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.099.139 [tsd_common.cpp:413][WaitPidForSubProcessByNoBlock][tid:12067] [TsdImpl] begin wait pid pid[12071],fmkPid[1268464],deviceId[0],vfId[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.119.894 [process_util_server.cpp:425][WaitPidForSubProcess][tid:12067] [TsdImpl] pid[12071] wait success, waitpid[-1] tryTimes[2]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.119.967 [tsd_common.cpp:413][WaitPidForSubProcessByNoBlock][tid:12067] [TsdImpl] begin wait pid pid[12103],fmkPid[1268464],deviceId[0],vfId[0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.140.259 [process_util_server.cpp:425][WaitPidForSubProcess][tid:12067] [TsdImpl] pid[12103] wait success, waitpid[-1] tryTimes[2]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.140.300 [tsdaemon.cpp:843][GenerateAlarmMessage][tid:12067] [TSDaemon] Tsd subprocess exit. reason=4, subProcType=1, subProcPid=12071, fmkPid=1268464
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.149.787 [tsd_common.cpp:2676][RemoveOmFile][tid:12067] cmd=rm -rf /home/HwHiAiUser/hs/0/omfile/1268464/, ret=0, reason=No child processes.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.149.849 [tsd_common.cpp:626][CustomProcClean][tid:12067] Clean custSoPath:/home/CustAiCpuUser/cust_aicpu_0_0_1268464/
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.158.116 [tsd_common.cpp:632][CustomProcClean][tid:12067] removestr:rm -rf /home/CustAiCpuUser/cust_aicpu_0_0_1268464/, ret:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.158.162 [tsd_common.cpp:637][CustomProcClean][tid:12067] [TSDaemon] device index in os[0] sessId[4] fmkPid[1268464] rankSize[2] CustomProcClean end
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.158.182 [tsd_common.cpp:1184][Destory][tid:12067] [TSDaemon] device index in os[0] sessId[4] fmkPid[1268464] rankSize[2] Destory begin
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.158.208 [tsd_common.cpp:1205][CleanTsdRcvHdcThreads][tid:12067] [TSDaemon] device index in os[0] sessId[4] fmkPid[1268464] CleanTsdRcvHdcThreads enter [threadSize=2]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.158.323 [tsd_common.cpp:1220][CleanTsdRcvHdcThreads][tid:12067] [TSDaemon] deviceIndex in os[0] sessId[4] fmkPid[1268464] CleanTsdRcvHdcThreads exit[threadSize=0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.158.344 [tsd_common.cpp:1231][CleanTsdRcvEventThreads][tid:12067] [TSDaemon] device id os[0] sessId[4] fmkPid[1268464] CleanTsdRcvEventThreads enter [threadSize=2]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.158.363 [tsd_common.cpp:1245][CleanTsdRcvEventThreads][tid:12067] [TSDaemon] device id os[0] sessId[4] fmkPid[1268464] CleanTsdRcvEventThreads exit [threadSize=0]
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.158.379 [tsd_common.cpp:562][InnerProcClean][tid:12067] [TSDaemon] device index in os[0] sessId[4] fmkPid[1268464] rankSize[2] aicpu-sd[-1] hccp[-1] qs[-1].
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.166.379 [tsd_common.cpp:2676][RemoveOmFile][tid:12067] cmd=rm -rf /home/HwHiAiUser/hs/0/omfile/1268464/, ret=0, reason=No such file or directory.
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.166.434 [tsd_common.cpp:626][CustomProcClean][tid:12067] Clean custSoPath:/home/CustAiCpuUser/cust_aicpu_0_0_1268464/
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.174.450 [tsd_common.cpp:632][CustomProcClean][tid:12067] removestr:rm -rf /home/CustAiCpuUser/cust_aicpu_0_0_1268464/, ret:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.174.494 [tsd_common.cpp:637][CustomProcClean][tid:12067] [TSDaemon] device index in os[0] sessId[4] fmkPid[1268464] rankSize[2] CustomProcClean end
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.174.514 [tsd_common.cpp:1192][Destory][tid:12067] [TSDaemon] device index in os[0] sessId[4] fmkPid[1268464] rankSize[2] Destory finish
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.174.532 [udf_safemanage.cpp:170][StopAllUdfByPm][tid:12067] udf pid map is emtpy no need to clean
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.174.563 [hdc_server.cpp:190][RecvData][tid:12067] [deviceId=0][sessionId=4] RecvData has exit
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:52:24.174.579 [hdc_server.cpp:462][ClearSingleSession][tid:12067] [HdcServer] start to ClearSingleSession sessionId=4
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:54:18.293.602 [tsdaemon.cpp:1585][CheckEventClientHeartbeat][tid:4990] heart beat running impl size:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-18:59:18.325.000 [tsdaemon.cpp:1585][CheckEventClientHeartbeat][tid:4990] heart beat running impl size:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-19:04:18.354.842 [tsdaemon.cpp:1585][CheckEventClientHeartbeat][tid:4990] heart beat running impl size:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-19:09:18.384.655 [tsdaemon.cpp:1585][CheckEventClientHeartbeat][tid:4990] heart beat running impl size:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-19:14:18.414.709 [tsdaemon.cpp:1585][CheckEventClientHeartbeat][tid:4990] heart beat running impl size:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-19:19:18.443.081 [tsdaemon.cpp:1585][CheckEventClientHeartbeat][tid:4990] heart beat running impl size:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-19:24:18.471.830 [tsdaemon.cpp:1585][CheckEventClientHeartbeat][tid:4990] heart beat running impl size:0
+[EVENT] TDT(4939,tsdaemon):2025-05-29-19:29:18.500.901 [tsdaemon.cpp:1585][CheckEventClientHeartbeat][tid:4990] heart beat running impl size:0

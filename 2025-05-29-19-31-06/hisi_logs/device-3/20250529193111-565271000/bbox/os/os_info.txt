@@ -1,0 +1,26 @@
+basic info:
+==================================================
+version		0x10002
+device num	0x1
+cpu num		0x8
+
+current info:
+==================================================
+device id	0x0
+excep id	0x0
+excep type	0xff
+core id		0x2
+
+log info (UTC time):
+==================================================
+event flag	0
+log num		0
+
+register: 	2
+==================================================
+reg_name	sctrl
+reg_size	0x10000
+reg_base	0xffffffff
+reg_name	pmu
+reg_size	0x18
+reg_base	0xffffffff

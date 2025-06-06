@@ -1,0 +1,5 @@
+record index 2
+
+index,publish_user,publish_syscall(+),event id,publish_pid,publish_cpuid
+1,69214308420285,4,19,4230,0
+2,69222501018713,4,19,4472,0

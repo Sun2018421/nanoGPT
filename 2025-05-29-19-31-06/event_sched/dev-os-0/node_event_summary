@@ -1,0 +1,21 @@
+publish_event_num 55 
+sched_event_num 106 
+wakeup_event_num 51
+
+publish system call:
+ave time(us) 3 
+max time(us) 6 
+publish in kernel:
+ave time(us) 3 
+max time(us) 5 
+wakeup:
+ave time(us) 82 
+max time(us) 1705 
+publish subscribe:
+ave time(us) 45 
+max time(us) 1710 
+
+event id,publish event num,sched event num
+3, 0, 9
+5, 0, 42
+19, 55, 55

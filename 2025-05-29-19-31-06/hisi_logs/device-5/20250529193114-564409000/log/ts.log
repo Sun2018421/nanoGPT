@@ -1,0 +1,17 @@
+ts log info:
+[EVENT] MCU(-1,null): set log level=1
+[INFO] TSCH(-1,null):1970-01-01-00:00:08.176.310 130 (dieid:0,cpuid:0) stars_aic_util.c:74 stars_freq_sharemem_timeout_call_back: timer_count=0
+[INFO] TSCH(-1,null):1970-01-01-00:00:08.176.348 131 (dieid:0,cpuid:0) stars_aic_util.c:52 stars_get_freq_sharemem_addr: send msg to lp, chip=5
+[INFO] TSCH(-1,null):1970-01-01-00:00:08.176.741 132 (dieid:0,cpuid:0) ipc_plat.c:316 tsch_ipc_deal_lpfreq_info: type=1, sharemem_addr=102923d000, sharemem_size=2040, aic_freq=0, aiv_freq=0
+[EVENT] MCU(-1,null): set log level=3
+[EVENT] TSCH(-1,null):2025-05-29-18:49:20.465.882 134 (dieid:0,cpuid:0) ringbuffer.c:210 delete_ringbuffer: pid=1264442, vf_id=0
+[EVENT] TSCH(-1,null):2025-05-29-18:49:20.465.923 135 (dieid:0,cpuid:0) ringbuffer.c:164 create_ringbuffer: pid=1264442, vf_id=0, buffer_len=10, runtime ver=2, offset=0, ringbuffer_addr=0x1f99000000.
+[EVENT] TSCH(-1,null):2025-05-29-18:49:20.465.946 136 (dieid:0,cpuid:0) ringbuffer.c:196 create_ringbuffer: last_Id=0, vf_id=0, pid=1264442, support_log_tohost=1
+[EVENT] TSCH(-1,null):2025-05-29-18:49:23.415.037 137 (dieid:0,cpuid:0) ringbuffer.c:210 delete_ringbuffer: pid=1264442, vf_id=0
+[EVENT] TSCH(-1,null):2025-05-29-18:49:23.415.080 138 (dieid:0,cpuid:0) ringbuffer.c:222 delete_ringbuffer: vf_id=0, i=0, pid=1264442, trace cq_cnt=0
+[EVENT] TSCH(-1,null):2025-05-29-18:52:03.671.588 139 (dieid:0,cpuid:0) ringbuffer.c:210 delete_ringbuffer: pid=1268466, vf_id=0
+[EVENT] TSCH(-1,null):2025-05-29-18:52:03.671.623 140 (dieid:0,cpuid:0) ringbuffer.c:164 create_ringbuffer: pid=1268466, vf_id=0, buffer_len=10, runtime ver=2, offset=64, ringbuffer_addr=0x1f99800000.
+[EVENT] TSCH(-1,null):2025-05-29-18:52:03.671.647 141 (dieid:0,cpuid:0) ringbuffer.c:196 create_ringbuffer: last_Id=1, vf_id=0, pid=1268466, support_log_tohost=1
+[EVENT] TSCH(-1,null):2025-05-29-18:52:21.133.282 142 (dieid:0,cpuid:0) ringbuffer.c:210 delete_ringbuffer: pid=1268466, vf_id=0
+[EVENT] TSCH(-1,null):2025-05-29-18:52:21.133.314 143 (dieid:0,cpuid:0) ringbuffer.c:222 delete_ringbuffer: vf_id=0, i=1, pid=1268466, trace cq_cnt=0
+[EVENT] TSCH(-1,null):2025-05-29-18:52:21.141.958 144 (dieid:0,cpuid:0) ringbuffer.c:210 delete_ringbuffer: pid=1268466, vf_id=0

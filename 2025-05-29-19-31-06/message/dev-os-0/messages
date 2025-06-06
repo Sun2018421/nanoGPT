@@ -1,0 +1,403 @@
+May 29 18:52:16 (none) kern.info kernel: [1384043.549174] [DRV_LPM_DEVMNG] getVrdInfo(0x0,0x0)
+May 29 18:52:20 (none) kern.info kernel: [1384048.349253] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=35)
+May 29 18:52:20 (none) kern.info kernel: [1384048.349268] [ascend] [tsmng] [tsmng_ts_free_mem 149] <swapper/3:0> Ts mem ops. (cmd=35; sub_cmd=152; mem_size=0x10000)
+May 29 18:52:20 (none) kern.info kernel: [1384048.349913] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=35)
+May 29 18:52:20 (none) kern.info kernel: [1384048.349920] [ascend] [tsmng] [tsmng_ts_free_mem 149] <swapper/3:0> Ts mem ops. (cmd=35; sub_cmd=152; mem_size=0x10000)
+May 29 18:52:21 (none) kern.info kernel: [1384048.482900] [ascend] [devmm] [devmm_svm_mmput 124] <kworker/0:2:10372,10372> Mmput async. (hostpid=1268465; devid=0; vfid=0; devpid=12293; ref=0)
+May 29 18:52:21 (none) kern.info kernel: [1384048.483185] [ascend] [devmm] [devmm_svm_mmput 124] <kworker/0:2:10372,10372> Mmput async. (hostpid=1268466; devid=0; vfid=0; devpid=12300; ref=0)
+May 29 18:52:21 (none) kern.warn kernel: [1384049.022069] [ascend] [hdcdrv] [hdcdrv_recv_peek 4300] <adx_commponent_:4749> Get session.(dev=0; session=162; service_type="service_bbox"; recv_peek_wait_ret=-21;head=0; tail=0; local_close_state="state_none"; remote_close_
+May 29 18:52:21 (none) kern.warn kernel: [1384049.028855] [ascend] [hdcdrv] [hdcdrv_recv_peek 4300] <adx_commponent_:4749> Get session.(dev=0; session=163; service_type="service_bbox"; recv_peek_wait_ret=-21;head=0; tail=0; local_close_state="state_none"; remote_close_
+May 29 18:52:21 (none) kern.info kernel: [1384049.343824] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=35)
+May 29 18:52:21 (none) kern.info kernel: [1384049.343835] [ascend] [tsmng] [tsmng_ts_free_mem 149] <swapper/3:0> Ts mem ops. (cmd=35; sub_cmd=152; mem_size=0x10000)
+May 29 18:52:21 (none) kern.info kernel: [1384049.347840] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=35)
+May 29 18:52:21 (none) kern.info kernel: [1384049.347846] [ascend] [tsmng] [tsmng_ts_free_mem 149] <swapper/3:0> Ts mem ops. (cmd=35; sub_cmd=152; mem_size=0x10000)
+May 29 18:52:22 (none) kern.info kernel: [1384049.441372] [ascend] [drv_pcie] [agentdrv_rx_msg_record_resq_time 940] <kworker/0:2:10372:10372> Get resq_time. (msg_type=5; chan_id=25; resq_time=24 ms; cpu=0)
+May 29 18:52:22 (none) kern.info kernel: [1384049.451176] [ascend] [devmm] [devmm_svm_mmput 124] <kworker/0:2:10372,10372> Mmput async. (hostpid=1268468; devid=0; vfid=0; devpid=12200; ref=0)
+May 29 18:52:22 (none) kern.info kernel: [1384049.480614] [ascend] [devmm] [devmm_svm_mmput 124] <kworker/0:0:11254,11254> Mmput async. (hostpid=1268462; devid=0; vfid=0; devpid=12222; ref=0)
+May 29 18:52:22 (none) kern.info kernel: [1384049.482038] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=35)
+May 29 18:52:22 (none) kern.info kernel: [1384049.482044] [ascend] [tsmng] [tsmng_ts_free_mem 149] <swapper/3:0> Ts mem ops. (cmd=35; sub_cmd=152; mem_size=0x10000)
+May 29 18:52:22 (none) kern.info kernel: [1384049.495257] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=35)
+May 29 18:52:22 (none) kern.info kernel: [1384049.495264] [ascend] [tsmng] [tsmng_ts_free_mem 149] <swapper/3:0> Ts mem ops. (cmd=35; sub_cmd=152; mem_size=0x10000)
+May 29 18:52:22 (none) kern.info kernel: [1384049.496738] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=35)
+May 29 18:52:22 (none) kern.info kernel: [1384049.496743] [ascend] [tsmng] [tsmng_ts_free_mem 149] <swapper/3:0> Ts mem ops. (cmd=35; sub_cmd=152; mem_size=0x10000)
+May 29 18:52:22 (none) kern.info kernel: [1384049.555561] [ascend] [devmm] [devmm_svm_mmput 124] <kworker/0:2:10372,10372> Mmput async. (hostpid=1268464; devid=0; vfid=0; devpid=12328; ref=0)
+May 29 18:52:22 (none) kern.info kernel: [1384049.686851] [ascend] [devmm] [devmm_svm_mmput 124] <kworker/0:0:11254,11254> Mmput async. (hostpid=1268463; devid=0; vfid=0; devpid=12315; ref=0)
+May 29 18:52:22 (none) kern.info kernel: [1384049.687097] [ascend] [devmm] [devmm_svm_mmput 124] <kworker/0:0:11254,11254> Mmput async. (hostpid=1268467; devid=0; vfid=0; devpid=12275; ref=0)
+May 29 18:52:22 (none) kern.info kernel: [1384049.697240] [ascend] [tsmng] [tsmng_ipc_chan_proc 133] <swapper/3:0> Ipc notifier process. (dev_id=0; cmd_type=35)
+May 29 18:52:22 (none) kern.info kernel: [1384049.697246] [ascend] [tsmng] [tsmng_ts_free_mem 149] <swapper/3:0> Ts mem ops. (cmd=35; sub_cmd=152; mem_size=0x10000)
+May 29 18:52:22 (none) kern.info kernel: [1384049.871570] [ascend] [devmm] [devmm_svm_mmput 124] <kworker/0:2:10372,10372> Mmput async. (hostpid=1268461; devid=0; vfid=0; devpid=12286; ref=0)
+May 29 18:52:22 (none) kern.warn kernel: [1384049.978391] [ascend] [hdcdrv] [hdcdrv_recv_peek 4300] <adx_commponent_:4749> Get session.(dev=0; session=164; service_type="service_bbox"; recv_peek_wait_ret=-21;head=0; tail=0; local_close_state="state_none"; remote_close_
+May 29 18:52:22 (none) kern.warn kernel: [1384050.021488] [ascend] [hdcdrv] [hdcdrv_recv_peek 4300] <adx_commponent_:4749> Get session.(dev=0; session=165; service_type="service_bbox"; recv_peek_wait_ret=-21;head=0; tail=0; local_close_state="state_none"; remote_close_
+May 29 18:52:22 (none) kern.warn kernel: [1384050.142591] [ascend] [hdcdrv] [hdcdrv_recv_peek 4300] <adx_commponent_:4749> Get session.(dev=0; session=166; service_type="service_bbox"; recv_peek_wait_ret=-21;head=0; tail=0; local_close_state="state_none"; remote_close_
+May 29 18:52:22 (none) kern.warn kernel: [1384050.234160] [ascend] [hdcdrv] [hdcdrv_recv_peek 4300] <adx_commponent_:4749> Get session.(dev=0; session=167; service_type="service_bbox"; recv_peek_wait_ret=-21;head=0; tail=0; local_close_state="state_none"; remote_close_
+May 29 18:52:22 (none) kern.warn kernel: [1384050.235966] [ascend] [hdcdrv] [hdcdrv_recv_peek 4300] <adx_commponent_:4749> Get session.(dev=0; session=168; service_type="service_bbox"; recv_peek_wait_ret=-21;head=0; tail=0; local_close_state="state_none"; remote_close_
+May 29 18:52:22 (none) kern.warn kernel: [1384050.266225] [ascend] [hdcdrv] [hdcdrv_recv_peek 4300] <adx_commponent_:4749> Get session.(dev=0; session=169; service_type="service_bbox"; recv_peek_wait_ret=-21;head=0; tail=0; local_close_state="state_none"; remote_close_
+May 29 18:52:23 (none) kern.warn kernel: [1384050.462357] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12293:12333:3> Show warning details. (pid=12293; gid=0; tid=1; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.462361] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12293:12332:2> Show warning details. (pid=12293; gid=0; tid=0; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.462372] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12293:12334:4> Show warning details. (pid=12293; gid=0; tid=2; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.462376] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12293:12337:7> Show warning details. (pid=12293; gid=0; tid=5; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.462381] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12293:12336:6> Show warning details. (pid=12293; gid=0; tid=4; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.462385] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12293:12335:5> Show warning details. (pid=12293; gid=0; tid=3; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.462394] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12293:12293:0> Show warning details. (pid=12293; gid=30; tid=0; err_ret=-512)
+May 29 18:52:23 (none) kern.info kernel: [1384050.462742] [ascend] [devmm] [devmm_svm_mmu_notifier_unreg 53] <aicpu_scheduler:12293,12340> Devmm notifier unreg.(hostpid=1268465; devpid=12293; devid=0; vfid=0; status=0x0; proc_idx=0x16; msg=0; other_proc=0)
+May 29 18:52:23 (none) kern.info kernel: [1384050.467577] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1516] <aicpu_scheduler:12293,12340> App exited destroy mem begin.
+May 29 18:52:23 (none) kern.info kernel: [1384050.467614] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1538] <aicpu_scheduler:12293,12340> App exited destroy mem end. (hostpid=1268465; devpid=12293; devid=0; vfid=0)
+May 29 18:52:23 (none) kern.info kernel: [1384050.480254] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <aicpu_scheduler:12293> Add release list success. (uda DMS DEVMNG ESCHED SVM_AGENT DP_PROC_MNG )
+May 29 18:52:23 (none) kern.info kernel: [1384050.480379] [ascend] [devdrv] [devdrv_release_sync_to_peer 1685] <aicpu_scheduler:12293> Release sync. (master_pid=1268465; slave_pid=12293; dev_id=0; vf_id=0; cp_type=0)
+May 29 18:52:23 (none) kern.info kernel: [1384050.480384] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <aicpu_scheduler:12293> Sync pid map. (op=0; host_pid=1268465; pid=12293; cp_type=2; devid=0)
+May 29 18:52:23 (none) kern.info kernel: [1384050.480637] [ascend] [devdrv] [devdrv_manager_process_sign_release 1836] <aicpu_scheduler:12293> Destroy master pid ctx when proc exit. (hostpid=1268465)
+May 29 18:52:23 (none) kern.info kernel: [1384050.480667] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <aicpu_scheduler:12293> release hostpid(1268465), devpid(12293), cp1_pid(12293), cp2_pid(-1), dev_only_pid(0), qs_pid(0), hccp_pid(0), chip_id(0), vfi
+May 29 18:52:23 (none) kern.info kernel: [1384050.480927] [ascend] [event_sched] [topic_sched_del_host_pid 326] <davinci_recycle:12442:12442:0> Del pid mapping table entry. (vfid=0; host_pid=1268465; table_id=5; pid=12293)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.501985] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12300:12343:2> Show warning details. (pid=12300; gid=0; tid=0; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.501989] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12300:12344:3> Show warning details. (pid=12300; gid=0; tid=1; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.501997] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12300:12345:4> Show warning details. (pid=12300; gid=0; tid=2; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.502004] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12300:12346:5> Show warning details. (pid=12300; gid=0; tid=3; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.502007] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12300:12347:6> Show warning details. (pid=12300; gid=0; tid=4; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.502011] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12300:12348:7> Show warning details. (pid=12300; gid=0; tid=5; err_ret=-512)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.502020] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12300:12300:0> Show warning details. (pid=12300; gid=30; tid=0; err_ret=-512)
+May 29 18:52:23 (none) kern.info kernel: [1384050.502375] [ascend] [devmm] [devmm_svm_mmu_notifier_unreg 53] <aicpu_scheduler:12300,12351> Devmm notifier unreg.(hostpid=1268466; devpid=12300; devid=0; vfid=0; status=0x0; proc_idx=0x17; msg=0; other_proc=0)
+May 29 18:52:23 (none) kern.info kernel: [1384050.507205] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1516] <aicpu_scheduler:12300,12351> App exited destroy mem begin.
+May 29 18:52:23 (none) kern.info kernel: [1384050.507240] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1538] <aicpu_scheduler:12300,12351> App exited destroy mem end. (hostpid=1268466; devpid=12300; devid=0; vfid=0)
+May 29 18:52:23 (none) kern.info kernel: [1384050.520363] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <aicpu_scheduler:12300> Add release list success. (uda DMS DEVMNG ESCHED SVM_AGENT DP_PROC_MNG )
+May 29 18:52:23 (none) kern.info kernel: [1384050.520374] [ascend] [devdrv] [devdrv_release_sync_to_peer 1685] <aicpu_scheduler:12300> Release sync. (master_pid=1268466; slave_pid=12300; dev_id=0; vf_id=0; cp_type=0)
+May 29 18:52:23 (none) kern.info kernel: [1384050.520379] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <aicpu_scheduler:12300> Sync pid map. (op=0; host_pid=1268466; pid=12300; cp_type=2; devid=0)
+May 29 18:52:23 (none) kern.info kernel: [1384050.520631] [ascend] [devdrv] [devdrv_manager_process_sign_release 1836] <aicpu_scheduler:12300> Destroy master pid ctx when proc exit. (hostpid=1268466)
+May 29 18:52:23 (none) kern.info kernel: [1384050.520662] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <aicpu_scheduler:12300> release hostpid(1268466), devpid(12300), cp1_pid(12300), cp2_pid(-1), dev_only_pid(0), qs_pid(0), hccp_pid(0), chip_id(0), vfi
+May 29 18:52:23 (none) kern.info kernel: [1384050.521580] [ascend] [event_sched] [topic_sched_del_host_pid 326] <davinci_recycle:12446:12446:0> Del pid mapping table entry. (vfid=0; host_pid=1268466; table_id=6; pid=12300)
+May 29 18:52:23 (none) kern.warn kernel: [1384050.543910] hdcdrv_session_state_to_closing: 11 callbacks suppressed
+May 29 18:52:23 (none) kern.warn kernel: [1384050.543915] [ascend] [hdcdrv] [hdcdrv_session_state_to_closing 913] <tsdaemon:4987> Status IDLE, session has already closed. (session=136; dev_id=0; service_type="service_TSD"; local_close_state="remote_close_post"; remote_
+May 29 18:52:23 (none) kern.warn kernel: [1384050.571148] [ascend] [hdcdrv] [hdcdrv_session_state_to_closing 913] <tsdaemon:4987> Status IDLE, session has already closed. (session=141; dev_id=0; service_type="service_TSD"; local_close_state="remote_close_post"; remote_
+May 29 18:52:24 (none) kern.warn kernel: [1384051.446686] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12275:12302:2> Show warning details. (pid=12275; gid=0; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.446689] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12275:12303:3> Show warning details. (pid=12275; gid=0; tid=1; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.446697] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12275:12306:6> Show warning details. (pid=12275; gid=0; tid=4; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.446701] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12275:12304:4> Show warning details. (pid=12275; gid=0; tid=2; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.446704] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12275:12305:5> Show warning details. (pid=12275; gid=0; tid=3; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.446708] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12275:12307:7> Show warning details. (pid=12275; gid=0; tid=5; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.446753] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12275:12275:0> Show warning details. (pid=12275; gid=30; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.info kernel: [1384051.447059] [ascend] [devmm] [devmm_svm_mmu_notifier_unreg 53] <aicpu_scheduler:12275,12313> Devmm notifier unreg.(hostpid=1268467; devpid=12275; devid=0; vfid=0; status=0x0; proc_idx=0x14; msg=0; other_proc=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.451862] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1516] <aicpu_scheduler:12275,12313> App exited destroy mem begin.
+May 29 18:52:24 (none) kern.info kernel: [1384051.451900] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1538] <aicpu_scheduler:12275,12313> App exited destroy mem end. (hostpid=1268467; devpid=12275; devid=0; vfid=0)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.452882] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12222:12230:2> Show warning details. (pid=12222; gid=0; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.452885] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12222:12231:3> Show warning details. (pid=12222; gid=0; tid=1; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.452891] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12222:12232:4> Show warning details. (pid=12222; gid=0; tid=2; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.452894] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12222:12233:5> Show warning details. (pid=12222; gid=0; tid=3; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.452898] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12222:12234:6> Show warning details. (pid=12222; gid=0; tid=4; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.452901] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12222:12235:7> Show warning details. (pid=12222; gid=0; tid=5; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.452979] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12222:12222:0> Show warning details. (pid=12222; gid=30; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.info kernel: [1384051.461240] [ascend] [devmm] [devmm_svm_mmu_notifier_unreg 53] <aicpu_scheduler:12222,12222> Devmm notifier unreg.(hostpid=1268462; devpid=12222; devid=0; vfid=0; status=0x0; proc_idx=0x13; msg=0; other_proc=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.466071] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1516] <aicpu_scheduler:12222,12222> App exited destroy mem begin.
+May 29 18:52:24 (none) kern.info kernel: [1384051.466108] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1538] <aicpu_scheduler:12222,12222> App exited destroy mem end. (hostpid=1268462; devpid=12222; devid=0; vfid=0)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.483066] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12328:12366:2> Show warning details. (pid=12328; gid=0; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.483069] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12328:12367:3> Show warning details. (pid=12328; gid=0; tid=1; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.483076] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12328:12369:5> Show warning details. (pid=12328; gid=0; tid=3; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.483079] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12328:12368:4> Show warning details. (pid=12328; gid=0; tid=2; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.483082] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12328:12370:6> Show warning details. (pid=12328; gid=0; tid=4; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.483086] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12328:12371:7> Show warning details. (pid=12328; gid=0; tid=5; err_ret=-512)
+May 29 18:52:24 (none) kern.info kernel: [1384051.483723] [ascend] [devmm] [devmm_svm_mmu_notifier_unreg 53] <aicpu_scheduler:12328,12372> Devmm notifier unreg.(hostpid=1268464; devpid=12328; devid=0; vfid=0; status=0x0; proc_idx=0x19; msg=0; other_proc=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.488556] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1516] <aicpu_scheduler:12328,12372> App exited destroy mem begin.
+May 29 18:52:24 (none) kern.info kernel: [1384051.488588] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1538] <aicpu_scheduler:12328,12372> App exited destroy mem end. (hostpid=1268464; devpid=12328; devid=0; vfid=0)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.489470] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12200:12207:2> Show warning details. (pid=12200; gid=0; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.489473] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12200:12208:3> Show warning details. (pid=12200; gid=0; tid=1; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.489479] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12200:12209:4> Show warning details. (pid=12200; gid=0; tid=2; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.489483] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12200:12210:5> Show warning details. (pid=12200; gid=0; tid=3; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.489486] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12200:12211:6> Show warning details. (pid=12200; gid=0; tid=4; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.489489] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12200:12212:7> Show warning details. (pid=12200; gid=0; tid=5; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.489505] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12200:12200:0> Show warning details. (pid=12200; gid=30; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.489995] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12286:12317:2> Show warning details. (pid=12286; gid=0; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.489999] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12286:12318:3> Show warning details. (pid=12286; gid=0; tid=1; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.490004] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12286:12319:4> Show warning details. (pid=12286; gid=0; tid=2; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.490008] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12286:12320:5> Show warning details. (pid=12286; gid=0; tid=3; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.490010] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12286:12321:6> Show warning details. (pid=12286; gid=0; tid=4; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.490015] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12286:12322:7> Show warning details. (pid=12286; gid=0; tid=5; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.490074] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12286:12286:0> Show warning details. (pid=12286; gid=30; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.495656] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12315:12355:3> Show warning details. (pid=12315; gid=0; tid=1; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.495659] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12315:12354:2> Show warning details. (pid=12315; gid=0; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.495664] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12315:12356:4> Show warning details. (pid=12315; gid=0; tid=2; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.495671] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12315:12357:5> Show warning details. (pid=12315; gid=0; tid=3; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.495674] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12315:12358:6> Show warning details. (pid=12315; gid=0; tid=4; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.495677] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12315:12359:7> Show warning details. (pid=12315; gid=0; tid=5; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.495752] [ascend] [event_sched] [sched_wait_for_publish_event 955] <aicpu_scheduler:12315:12315:0> Show warning details. (pid=12315; gid=30; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.info kernel: [1384051.496992] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <aicpu_scheduler:12222> Add release list success. (uda DMS DEVMNG ESCHED SVM_AGENT DP_PROC_MNG )
+May 29 18:52:24 (none) kern.info kernel: [1384051.497074] [ascend] [devdrv] [devdrv_release_sync_to_peer 1685] <aicpu_scheduler:12222> Release sync. (master_pid=1268462; slave_pid=12222; dev_id=0; vf_id=0; cp_type=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.497079] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <aicpu_scheduler:12222> Sync pid map. (op=0; host_pid=1268462; pid=12222; cp_type=2; devid=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.497492] [ascend] [devmm] [devmm_svm_mmu_notifier_unreg 53] <aicpu_scheduler:12200,12213> Devmm notifier unreg.(hostpid=1268468; devpid=12200; devid=0; vfid=0; status=0x0; proc_idx=0x12; msg=0; other_proc=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.502329] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1516] <aicpu_scheduler:12200,12213> App exited destroy mem begin.
+May 29 18:52:24 (none) kern.info kernel: [1384051.502373] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1538] <aicpu_scheduler:12200,12213> App exited destroy mem end. (hostpid=1268468; devpid=12200; devid=0; vfid=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.505256] [ascend] [devmm] [devmm_svm_mmu_notifier_unreg 53] <aicpu_scheduler:12315,12315> Devmm notifier unreg.(hostpid=1268463; devpid=12315; devid=0; vfid=0; status=0x0; proc_idx=0x18; msg=0; other_proc=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.510050] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1516] <aicpu_scheduler:12315,12315> App exited destroy mem begin.
+May 29 18:52:24 (none) kern.info kernel: [1384051.510082] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1538] <aicpu_scheduler:12315,12315> App exited destroy mem end. (hostpid=1268463; devpid=12315; devid=0; vfid=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.510603] [ascend] [devmm] [devmm_svm_mmu_notifier_unreg 53] <aicpu_scheduler:12286,12327> Devmm notifier unreg.(hostpid=1268461; devpid=12286; devid=0; vfid=0; status=0x0; proc_idx=0x15; msg=0; other_proc=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.515585] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1516] <aicpu_scheduler:12286,12327> App exited destroy mem begin.
+May 29 18:52:24 (none) kern.info kernel: [1384051.515668] [ascend] [devmm] [devmm_destory_all_self_mem_by_proc 1538] <aicpu_scheduler:12286,12327> App exited destroy mem end. (hostpid=1268461; devpid=12286; devid=0; vfid=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.517978] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <aicpu_scheduler:12328> Add release list success. (uda DMS DEVMNG ESCHED SVM_AGENT DP_PROC_MNG )
+May 29 18:52:24 (none) kern.info kernel: [1384051.518008] [ascend] [devdrv] [devdrv_release_sync_to_peer 1685] <aicpu_scheduler:12328> Release sync. (master_pid=1268464; slave_pid=12328; dev_id=0; vf_id=0; cp_type=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.518012] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <aicpu_scheduler:12328> Sync pid map. (op=0; host_pid=1268464; pid=12328; cp_type=2; devid=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.520635] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <aicpu_scheduler:12200> Add release list success. (uda DMS DEVMNG ESCHED SVM_AGENT DP_PROC_MNG )
+May 29 18:52:24 (none) kern.info kernel: [1384051.520735] [ascend] [devdrv] [devdrv_release_sync_to_peer 1685] <aicpu_scheduler:12200> Release sync. (master_pid=1268468; slave_pid=12200; dev_id=0; vf_id=0; cp_type=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.520738] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <aicpu_scheduler:12200> Sync pid map. (op=0; host_pid=1268468; pid=12200; cp_type=2; devid=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.520851] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <aicpu_scheduler:12275> Add release list success. (uda DMS DEVMNG ESCHED SVM_AGENT DP_PROC_MNG )
+May 29 18:52:24 (none) kern.info kernel: [1384051.520891] [ascend] [devdrv] [devdrv_release_sync_to_peer 1685] <aicpu_scheduler:12275> Release sync. (master_pid=1268467; slave_pid=12275; dev_id=0; vf_id=0; cp_type=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.520894] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <aicpu_scheduler:12275> Sync pid map. (op=0; host_pid=1268467; pid=12275; cp_type=2; devid=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.521057] [ascend] [devdrv] [devdrv_manager_process_sign_release 1836] <aicpu_scheduler:12222> Destroy master pid ctx when proc exit. (hostpid=1268462)
+May 29 18:52:24 (none) kern.info kernel: [1384051.521087] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <aicpu_scheduler:12222> release hostpid(1268462), devpid(12222), cp1_pid(12222), cp2_pid(-1), dev_only_pid(0), qs_pid(0), hccp_pid(0), chip_id(0), vfi
+May 29 18:52:24 (none) kern.info kernel: [1384051.524456] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <aicpu_scheduler:12286> Add release list success. (uda DMS DEVMNG ESCHED SVM_AGENT DP_PROC_MNG )
+May 29 18:52:24 (none) kern.info kernel: [1384051.524463] [ascend] [devdrv] [devdrv_release_sync_to_peer 1685] <aicpu_scheduler:12286> Release sync. (master_pid=1268461; slave_pid=12286; dev_id=0; vf_id=0; cp_type=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.524466] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <aicpu_scheduler:12286> Sync pid map. (op=0; host_pid=1268461; pid=12286; cp_type=2; devid=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.526732] [ascend] [devdrv] [devdrv_manager_process_sign_release 1836] <aicpu_scheduler:12328> Destroy master pid ctx when proc exit. (hostpid=1268464)
+May 29 18:52:24 (none) kern.info kernel: [1384051.526768] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <aicpu_scheduler:12328> release hostpid(1268464), devpid(12328), cp1_pid(12328), cp2_pid(-1), dev_only_pid(0), qs_pid(0), hccp_pid(0), chip_id(0), vfi
+May 29 18:52:24 (none) kern.info kernel: [1384051.527949] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <aicpu_scheduler:12315> Add release list success. (uda DMS DEVMNG ESCHED SVM_AGENT DP_PROC_MNG )
+May 29 18:52:24 (none) kern.info kernel: [1384051.528008] [ascend] [devdrv] [devdrv_release_sync_to_peer 1685] <aicpu_scheduler:12315> Release sync. (master_pid=1268463; slave_pid=12315; dev_id=0; vf_id=0; cp_type=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.528011] [ascend] [devdrv] [devdrv_pid_map_sync_to_peer 536] <aicpu_scheduler:12315> Sync pid map. (op=0; host_pid=1268463; pid=12315; cp_type=2; devid=0)
+May 29 18:52:24 (none) kern.info kernel: [1384051.528251] [ascend] [event_sched] [topic_sched_del_host_pid 326] <davinci_recycle:12461:12461:0> Del pid mapping table entry. (vfid=0; host_pid=1268464; table_id=8; pid=12328)
+May 29 18:52:24 (none) kern.info kernel: [1384051.528464] [ascend] [devdrv] [devdrv_manager_process_sign_release 1836] <aicpu_scheduler:12315> Destroy master pid ctx when proc exit. (hostpid=1268463)
+May 29 18:52:24 (none) kern.info kernel: [1384051.528486] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <aicpu_scheduler:12315> release hostpid(1268463), devpid(12315), cp1_pid(12315), cp2_pid(-1), dev_only_pid(0), qs_pid(0), hccp_pid(0), chip_id(0), vfi
+May 29 18:52:24 (none) kern.info kernel: [1384051.528708] [ascend] [event_sched] [topic_sched_del_host_pid 326] <davinci_recycle:12460:12460:0> Del pid mapping table entry. (vfid=0; host_pid=1268462; table_id=2; pid=12222)
+May 29 18:52:24 (none) kern.info kernel: [1384051.528848] [ascend] [event_sched] [topic_sched_del_host_pid 326] <davinci_recycle:12462:12462:0> Del pid mapping table entry. (vfid=0; host_pid=1268463; table_id=7; pid=12315)
+May 29 18:52:24 (none) kern.info kernel: [1384051.529084] [ascend] [devdrv] [devdrv_manager_process_sign_release 1836] <aicpu_scheduler:12200> Destroy master pid ctx when proc exit. (hostpid=1268468)
+May 29 18:52:24 (none) kern.info kernel: [1384051.529111] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <aicpu_scheduler:12200> release hostpid(1268468), devpid(12200), cp1_pid(12200), cp2_pid(-1), dev_only_pid(0), qs_pid(0), hccp_pid(0), chip_id(0), vfi
+May 29 18:52:24 (none) kern.info kernel: [1384051.529765] [ascend] [event_sched] [topic_sched_del_host_pid 326] <davinci_recycle:12463:12463:0> Del pid mapping table entry. (vfid=0; host_pid=1268468; table_id=1; pid=12200)
+May 29 18:52:24 (none) kern.info kernel: [1384051.529979] [ascend] [devdrv] [devdrv_manager_process_sign_release 1836] <aicpu_scheduler:12275> Destroy master pid ctx when proc exit. (hostpid=1268467)
+May 29 18:52:24 (none) kern.info kernel: [1384051.530007] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <aicpu_scheduler:12275> release hostpid(1268467), devpid(12275), cp1_pid(12275), cp2_pid(-1), dev_only_pid(0), qs_pid(0), hccp_pid(0), chip_id(0), vfi
+May 29 18:52:24 (none) kern.info kernel: [1384051.530176] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <aicpu_scheduler:12286> release hostpid(1268461), devpid(12286), cp1_pid(12286), cp2_pid(-1), dev_only_pid(0), qs_pid(0), hccp_pid(0), chip_id(0), vfi
+May 29 18:52:24 (none) kern.info kernel: [1384051.530314] [ascend] [event_sched] [topic_sched_del_host_pid 326] <davinci_recycle:12464:12464:0> Del pid mapping table entry. (vfid=0; host_pid=1268467; table_id=3; pid=12275)
+May 29 18:52:24 (none) kern.info kernel: [1384051.530478] [ascend] [event_sched] [topic_sched_del_host_pid 326] <davinci_recycle:12465:12465:0> Del pid mapping table entry. (vfid=0; host_pid=1268461; table_id=4; pid=12286)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.537122] [ascend] [event_sched] [sched_wait_for_publish_event 955] <hccp_service.bi:12412:12412:0> Show warning details. (pid=12412; gid=30; tid=0; err_ret=-512)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.537546] [ascend] [hdcdrv] [hdcdrv_accept_wait 3616] <hccp_service.bi:12412> Accept wait interruptible exit. (dev_id=0; service_type="service_rdma"; ret=-512)
+May 29 18:52:24 (none) kern.info kernel: [1384051.554138] [ascend] [ascend_dev] [drv_ascend_add_release_list_all 941] <hccp_service.bi:12412> Add release list success. (uda DMS DEVMNG ESCHED DP_PROC_MNG )
+May 29 18:52:24 (none) kern.info kernel: [1384051.554245] [ascend] [devdrv] [devdrv_manager_process_sign_release 1836] <hccp_service.bi:12412> Destroy master pid ctx when proc exit. (hostpid=1268461)
+May 29 18:52:24 (none) kern.info kernel: [1384051.554278] [ascend] [devdrv] [devdrv_manager_process_sign_release 1851] <hccp_service.bi:12412> release hostpid(1268461), devpid(12412), cp1_pid(0), cp2_pid(0), dev_only_pid(0), qs_pid(0), hccp_pid(12412), chip_id(0), vfid
+May 29 18:52:24 (none) kern.info kernel: [1384051.554378] [ascend] [hdcdrv] [hdcdrv_release_destroy_server 5386] <hccp_service.bi:12412> Release server. (task_pid=12412; dev_id=0; service_type="service_rdma")
+May 29 18:52:24 (none) kern.info kernel: [1384051.554382] [ascend] [hdcdrv] [hdcdrv_server_destroy 3580] <hccp_service.bi:12412> Server destroy success.(dev_id=0; fid=0; service="service_rdma"; pid=12412)
+May 29 18:52:24 (none) kern.info kernel: [1384051.557497] [ascend] [event_sched] [topic_sched_del_host_pid 296] <davinci_recycle:12472:12472:0> None such host_pid in topic table, deletion not needed. (vfid=0; host_pid=1268461)
+May 29 18:52:24 (none) kern.warn kernel: [1384051.712029] [ascend] [hdcdrv] [hdcdrv_session_state_to_closing 913] <tsdaemon:4987> Status IDLE, session has already closed. (session=151; dev_id=0; service_type="service_TSD"; local_close_state="remote_close_post"; remote_
+May 29 18:52:24 (none) kern.warn kernel: [1384051.721686] [ascend] [hdcdrv] [hdcdrv_session_state_to_closing 913] <tsdaemon:4987> Status IDLE, session has already closed. (session=121; dev_id=0; service_type="service_TSD"; local_close_state="remote_close_post"; remote_
+May 29 18:52:24 (none) kern.warn kernel: [1384051.728680] [ascend] [hdcdrv] [hdcdrv_session_state_to_closing 913] <tsdaemon:4987> Status IDLE, session has already closed. (session=130; dev_id=0; service_type="service_TSD"; local_close_state="remote_close_post"; remote_
+May 29 18:52:24 (none) kern.warn kernel: [1384051.734657] [ascend] [hdcdrv] [hdcdrv_session_state_to_closing 913] <tsdaemon:4987> Status IDLE, session has already closed. (session=146; dev_id=0; service_type="service_TSD"; local_close_state="remote_close_post"; remote_
+May 29 18:52:24 (none) kern.warn kernel: [1384051.739016] [ascend] [hdcdrv] [hdcdrv_session_state_to_closing 913] <tsdaemon:4987> Status IDLE, session has already closed. (session=116; dev_id=0; service_type="service_TSD"; local_close_state="remote_close_post"; remote_
+May 29 18:52:24 (none) kern.warn kernel: [1384051.745359] [ascend] [hdcdrv] [hdcdrv_session_state_to_closing 913] <tsdaemon:4987> Status IDLE, session has already closed. (session=131; dev_id=0; service_type="service_TSD"; local_close_state="remote_close_post"; remote_
+May 29 18:53:00 (none) cron.info crond[4891]: USER root pid 12529 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:53:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:53:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 18:53:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:53:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:54:00 (none) cron.info crond[4891]: USER root pid 12613 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:54:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:54:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 18:54:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:54:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:55:00 (none) cron.info crond[4891]: USER root pid 12688 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:55:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:55:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 18:55:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:55:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:56:00 (none) cron.info crond[4891]: USER root pid 12766 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:56:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:56:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 18:56:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:56:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:57:00 (none) cron.info crond[4891]: USER root pid 12840 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:57:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:57:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 18:57:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:57:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:58:00 (none) cron.info crond[4891]: USER root pid 12927 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:58:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:58:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 18:58:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:58:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 18:59:00 (none) cron.info crond[4891]: USER root pid 13009 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 18:59:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 18:59:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 18:59:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 18:59:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:00:00 (none) cron.info crond[4891]: USER root pid 13084 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:00:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:00:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:00:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:00:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:00:44 (none) kern.info kernel: [1384551.453154] [DRV_LPM_DEVMNG]lpm dsmi_stats: setTops(0x0,0x0) setLptest(0x0,0x0) setIdleSwitch(0x0,0x0) getAicVoltCurr(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453161] [DRV_LPM_DEVMNG] getHybridVoltCurr(0x0,0x0) getCpuVoltCurr(0x0,0x0) getDdrVoltCurr(0x0,0x0) getAcgCnt(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453164] [DRV_LPM_DEVMNG] getIdleStatus(0x0,0x0) getCurrentTops(0x0,0x0) getAllTops(0x0,0x0) getAicFreqReduc(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453167] [DRV_LPM_DEVMNG] getPower(0x0,0x0) setSocStress(0x0,0x0) getAicCpm(0x0,0x0) getBusCpm(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453170] [DRV_LPM_DEVMNG] setSocStressInner(0x0,0x0) getAicCpmInner(0x0,0x0) getBusCpmInner(0x0,0x0) getLptest(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453172] [DRV_LPM_DEVMNG] getTempDdr(0x0,0x0) getTempDdrThold(0x0,0x0) getTempSocThold(0x0,0x0) getTempSocMinThold(0x0,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453175] [DRV_LPM_DEVMNG] setSuspend(0x0,0x0) getLpStatus(0x0,0x0) getFreq(0x13b57,0x0) getTemp(0x78b,0x0)
+May 29 19:00:44 (none) kern.info kernel: [1384551.453177] [DRV_LPM_DEVMNG] getVrdInfo(0x0,0x0)
+May 29 19:01:00 (none) cron.info crond[4891]: USER root pid 13160 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:01:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:01:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:01:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:01:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:02:00 (none) cron.info crond[4891]: USER root pid 13250 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:02:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:02:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:02:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:02:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:03:00 (none) cron.info crond[4891]: USER root pid 13324 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:03:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:03:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:03:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:03:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:04:00 (none) cron.info crond[4891]: USER root pid 13400 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:04:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:04:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:04:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:04:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:05:00 (none) cron.info crond[4891]: USER root pid 13477 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:05:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:05:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:05:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:05:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:06:00 (none) cron.info crond[4891]: USER root pid 13557 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:06:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:06:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:06:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:06:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:07:00 (none) cron.info crond[4891]: USER root pid 13645 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:07:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:07:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:07:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:07:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:08:00 (none) cron.info crond[4891]: USER root pid 13719 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:08:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:08:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:08:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:08:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:09:00 (none) cron.info crond[4891]: USER root pid 13797 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:09:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:09:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:09:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:09:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:09:11 (none) kern.info kernel: [1385059.357157] [DRV_LPM_DEVMNG]lpm dsmi_stats: setTops(0x0,0x0) setLptest(0x0,0x0) setIdleSwitch(0x0,0x0) getAicVoltCurr(0x0,0x0)
+May 29 19:09:11 (none) kern.info kernel: [1385059.357163] [DRV_LPM_DEVMNG] getHybridVoltCurr(0x0,0x0) getCpuVoltCurr(0x0,0x0) getDdrVoltCurr(0x0,0x0) getAcgCnt(0x0,0x0)
+May 29 19:09:11 (none) kern.info kernel: [1385059.357166] [DRV_LPM_DEVMNG] getIdleStatus(0x0,0x0) getCurrentTops(0x0,0x0) getAllTops(0x0,0x0) getAicFreqReduc(0x0,0x0)
+May 29 19:09:11 (none) kern.info kernel: [1385059.357169] [DRV_LPM_DEVMNG] getPower(0x0,0x0) setSocStress(0x0,0x0) getAicCpm(0x0,0x0) getBusCpm(0x0,0x0)
+May 29 19:09:11 (none) kern.info kernel: [1385059.357172] [DRV_LPM_DEVMNG] setSocStressInner(0x0,0x0) getAicCpmInner(0x0,0x0) getBusCpmInner(0x0,0x0) getLptest(0x0,0x0)
+May 29 19:09:11 (none) kern.info kernel: [1385059.357174] [DRV_LPM_DEVMNG] getTempDdr(0x0,0x0) getTempDdrThold(0x0,0x0) getTempSocThold(0x0,0x0) getTempSocMinThold(0x0,0x0)
+May 29 19:09:11 (none) kern.info kernel: [1385059.357177] [DRV_LPM_DEVMNG] setSuspend(0x0,0x0) getLpStatus(0x0,0x0) getFreq(0x13b73,0x0) getTemp(0x78b,0x0)
+May 29 19:09:11 (none) kern.info kernel: [1385059.357179] [DRV_LPM_DEVMNG] getVrdInfo(0x0,0x0)
+May 29 19:10:00 (none) cron.info crond[4891]: USER root pid 13885 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:10:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:10:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:10:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:10:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:11:00 (none) cron.info crond[4891]: USER root pid 13962 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:11:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:11:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:11:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:11:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:12:00 (none) cron.info crond[4891]: USER root pid 14041 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:12:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:12:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:12:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:12:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:13:00 (none) cron.info crond[4891]: USER root pid 14116 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:13:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:13:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:13:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:13:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:14:00 (none) cron.info crond[4891]: USER root pid 14203 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:14:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:14:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:14:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:14:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:15:00 (none) cron.info crond[4891]: USER root pid 14281 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:15:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:15:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:15:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:15:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:16:00 (none) cron.info crond[4891]: USER root pid 14356 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:16:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:16:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:16:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:16:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:17:00 (none) cron.info crond[4891]: USER root pid 14432 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:17:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:17:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:17:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:17:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:17:39 (none) kern.info kernel: [1385567.261154] [DRV_LPM_DEVMNG]lpm dsmi_stats: setTops(0x0,0x0) setLptest(0x0,0x0) setIdleSwitch(0x0,0x0) getAicVoltCurr(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261160] [DRV_LPM_DEVMNG] getHybridVoltCurr(0x0,0x0) getCpuVoltCurr(0x0,0x0) getDdrVoltCurr(0x0,0x0) getAcgCnt(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261163] [DRV_LPM_DEVMNG] getIdleStatus(0x0,0x0) getCurrentTops(0x0,0x0) getAllTops(0x0,0x0) getAicFreqReduc(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261166] [DRV_LPM_DEVMNG] getPower(0x0,0x0) setSocStress(0x0,0x0) getAicCpm(0x0,0x0) getBusCpm(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261169] [DRV_LPM_DEVMNG] setSocStressInner(0x0,0x0) getAicCpmInner(0x0,0x0) getBusCpmInner(0x0,0x0) getLptest(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261171] [DRV_LPM_DEVMNG] getTempDdr(0x0,0x0) getTempDdrThold(0x0,0x0) getTempSocThold(0x0,0x0) getTempSocMinThold(0x0,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261174] [DRV_LPM_DEVMNG] setSuspend(0x0,0x0) getLpStatus(0x0,0x0) getFreq(0x13b8e,0x0) getTemp(0x78b,0x0)
+May 29 19:17:39 (none) kern.info kernel: [1385567.261176] [DRV_LPM_DEVMNG] getVrdInfo(0x0,0x0)
+May 29 19:18:00 (none) cron.info crond[4891]: USER root pid 14512 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:18:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:18:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:18:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:18:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:19:00 (none) cron.info crond[4891]: USER root pid 14597 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:19:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:19:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:19:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:19:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:20:00 (none) cron.info crond[4891]: USER root pid 14672 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:20:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:20:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:20:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:20:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:21:00 (none) cron.info crond[4891]: USER root pid 14750 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:21:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:21:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:21:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:21:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:22:00 (none) cron.info crond[4891]: USER root pid 14836 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:22:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:22:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:22:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:22:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:23:00 (none) cron.info crond[4891]: USER root pid 14914 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:23:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:23:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:23:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:23:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:24:00 (none) cron.info crond[4891]: USER root pid 14991 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:24:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:24:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:24:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:24:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:25:00 (none) cron.info crond[4891]: USER root pid 15066 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:25:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:25:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:25:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:25:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:26:00 (none) cron.info crond[4891]: USER root pid 15153 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:26:07 (none) kern.info kernel: [1386075.165156] [DRV_LPM_DEVMNG]lpm dsmi_stats: setTops(0x0,0x0) setLptest(0x0,0x0) setIdleSwitch(0x0,0x0) getAicVoltCurr(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165162] [DRV_LPM_DEVMNG] getHybridVoltCurr(0x0,0x0) getCpuVoltCurr(0x0,0x0) getDdrVoltCurr(0x0,0x0) getAcgCnt(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165165] [DRV_LPM_DEVMNG] getIdleStatus(0x0,0x0) getCurrentTops(0x0,0x0) getAllTops(0x0,0x0) getAicFreqReduc(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165168] [DRV_LPM_DEVMNG] getPower(0x0,0x0) setSocStress(0x0,0x0) getAicCpm(0x0,0x0) getBusCpm(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165171] [DRV_LPM_DEVMNG] setSocStressInner(0x0,0x0) getAicCpmInner(0x0,0x0) getBusCpmInner(0x0,0x0) getLptest(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165174] [DRV_LPM_DEVMNG] getTempDdr(0x0,0x0) getTempDdrThold(0x0,0x0) getTempSocThold(0x0,0x0) getTempSocMinThold(0x0,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165176] [DRV_LPM_DEVMNG] setSuspend(0x0,0x0) getLpStatus(0x0,0x0) getFreq(0x13baa,0x0) getTemp(0x78b,0x0)
+May 29 19:26:07 (none) kern.info kernel: [1386075.165178] [DRV_LPM_DEVMNG] getVrdInfo(0x0,0x0)
+May 29 19:26:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:26:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:26:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:26:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:27:00 (none) cron.info crond[4891]: USER root pid 15232 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:27:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:27:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:27:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:27:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:28:00 (none) cron.info crond[4891]: USER root pid 15306 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:28:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:28:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:28:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:28:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:29:00 (none) cron.info crond[4891]: USER root pid 15383 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:29:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:29:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:29:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:29:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:30:00 (none) cron.info crond[4891]: USER root pid 15461 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:30:09 (none) authpriv.notice sudo: pam_unix(sudo:account): account HwDmUser has expired (failed to change password)
+May 29 19:30:09 (none) authpriv.notice sudo: HwDmUser : PWD=/dev ; USER=root ; COMMAND=/var/hccn_sudo_config.sh /sbin/send_arp eth0 29.106.167.140 d8:59:82:2c:2d:b1
+May 29 19:30:09 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1101)
+May 29 19:30:09 (none) authpriv.info sudo: pam_unix(sudo:session): session closed for user root
+May 29 19:31:00 (none) cron.info crond[4891]: USER root pid 15548 cmd ps -ef | grep -v grep | grep -Eq "process-manager/process-manager|pm_child" || /usr/bin/mdc/base-plat/process-manager/pm_child
+May 29 19:31:06 (none) authpriv.notice sudo: pam_unix(sudo:account): expired password for user HwHiAiUser (root enforced)
+May 29 19:31:06 (none) authpriv.notice sudo: HwHiAiUser : PWD=/dev ; USER=root ; COMMAND=/usr/bin/cp -RPn /var/log/messages /home/HwHiAiUser/ide_daemon/
+May 29 19:31:06 (none) authpriv.info sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
