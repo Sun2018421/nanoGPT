@@ -27,9 +27,9 @@ import torch
 import torch_npu 
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.distributed import init_process_group, destroy_process_group
-
-from model import GPTConfig, GPT
 from torch.utils.tensorboard import SummaryWriter
+from model import GPTConfig, GPT
+
 # -----------------------------------------------------------------------------
 # default config values designed to train a gpt2 (124M) on OpenWebText
 # I/O
@@ -104,6 +104,9 @@ print(f"tokens per iteration will be: {tokens_per_iter:,}")
 
 if master_process:
     os.makedirs(out_dir, exist_ok=True)
+exp_name = f'gpt2-adamw'
+log_dir = os.path.join(out_dir, exp_name)
+writer = SummaryWriter(log_dir=log_dir) if master_process else None
 torch.manual_seed(1337 + seed_offset)
 # torch.backends.npu.matmul.allow_tf32 = True # allow tf32 on matmul
 torch_npu.npu.matmul.allow_hf32=True
@@ -135,7 +138,7 @@ def get_batch(split):
 # init these up here, can override if init_from='resume' (i.e. from a checkpoint)
 iter_num = 0
 best_val_loss = 1e9
-
+clip_time = 0
 # attempt to derive vocab_size from the dataset
 meta_path = os.path.join(data_dir, 'meta.pkl')
 meta_vocab_size = None
@@ -265,14 +268,11 @@ while True:
     if iter_num % eval_interval == 0 and master_process:
         losses = estimate_loss()
         print(f"step {iter_num}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
-        if wandb_log:
-            wandb.log({
-                "iter": iter_num,
-                "train/loss": losses['train'],
-                "val/loss": losses['val'],
-                "lr": lr,
-                "mfu": running_mfu*100, # convert to percentage
-            })
+        if writer:
+            writer.add_scalar('Loss/Validation', losses['val'], iter_num)
+            writer.add_scalar('Loss/Train_Eval', losses['train'], iter_num)
+            writer.add_scalar('Parameters/Learning_Rate', lr, iter_num)
+
         if losses['val'] < best_val_loss or always_save_checkpoint:
             best_val_loss = losses['val']
             if iter_num > 0:
@@ -308,7 +308,9 @@ while True:
     # clip the gradient
     if grad_clip != 0.0:
         scaler.unscale_(optimizer)
-        torch.nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
+        total_norm = torch.nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
+        if total_norm.item() > grad_clip:
+            clip_time += 1
     # step the optimizer and scaler if training in fp16
     scaler.step(optimizer)
     scaler.update()
@@ -327,12 +329,19 @@ while True:
             mfu = raw_model.estimate_mfu(batch_size * gradient_accumulation_steps, dt)
             running_mfu = mfu if running_mfu == -1.0 else 0.9*running_mfu + 0.1*mfu
         print(f"iter {iter_num}: loss {lossf:.4f}, time {dt*1000:.2f}ms, mfu {running_mfu*100:.2f}%")
+        if writer:
+            writer.add_scalar('Loss/Train_Step', lossf, iter_num)
+            writer.add_scalar('Train/clip_rate', clip_time/(iter_num+1), iter_num)
+
     iter_num += 1
     local_iter_num += 1
 
     # termination conditions
     if iter_num > max_iters:
         break
+
+if writer:
+    writer.close()
 
 if ddp:
     destroy_process_group()

@@ -27,9 +27,9 @@ import torch
 import torch_npu 
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.distributed import init_process_group, destroy_process_group
-
-from model import GPTConfig, GPT
 from torch.utils.tensorboard import SummaryWriter
+from model import GPTConfig, GPT
+
 # -----------------------------------------------------------------------------
 # default config values designed to train a gpt2 (124M) on OpenWebText
 # I/O
@@ -73,6 +73,9 @@ backend = 'hccl' # 'nccl', 'gloo', etc.
 device = 'npu' # examples: 'cpu', 'cuda', 'cuda:0', 'cuda:1' etc., or try 'mps' on macbooks
 dtype = 'bfloat16' if torch.npu.is_available() and torch.npu.is_bf16_supported() else 'float16' # 'float32', 'bfloat16', or 'float16', the latter will auto implement a GradScaler
 compile = False # use PyTorch 2.0 to compile the model to be faster
+#--------------how to clip logits-----------------------------
+CLIP_VALUE=0.08
+CLIP_TYPE='max' # 'max' or 'mean', how to clip the logits
 # -----------------------------------------------------------------------------
 config_keys = [k for k,v in globals().items() if not k.startswith('_') and isinstance(v, (int, float, bool, str))]
 exec(open('configurator.py').read()) # overrides from command line or config file
@@ -104,6 +107,9 @@ print(f"tokens per iteration will be: {tokens_per_iter:,}")
 
 if master_process:
     os.makedirs(out_dir, exist_ok=True)
+exp_name = f'gpt2-adamwClip-{CLIP_VALUE}'
+log_dir = os.path.join(out_dir, exp_name)
+writer = SummaryWriter(log_dir=log_dir) if master_process else None
 torch.manual_seed(1337 + seed_offset)
 # torch.backends.npu.matmul.allow_tf32 = True # allow tf32 on matmul
 torch_npu.npu.matmul.allow_hf32=True
@@ -198,7 +204,7 @@ model.to(device)
 scaler = torch_npu.npu.amp.GradScaler(enabled=(dtype == 'float16'))
 
 # optimizer
-optimizer = model.configure_optimizers('AdamW',weight_decay, learning_rate, (beta1, beta2), device_type)
+optimizer = model.configure_optimizers('AdamWWithDenomClip',weight_decay, learning_rate, (beta1, beta2), device_type, denom_clip_value=CLIP_VALUE, denom_clip_type=CLIP_TYPE)
 if init_from == 'resume':
     optimizer.load_state_dict(checkpoint['optimizer'])
 checkpoint = None # free up memory
@@ -265,14 +271,11 @@ while True:
     if iter_num % eval_interval == 0 and master_process:
         losses = estimate_loss()
         print(f"step {iter_num}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
-        if wandb_log:
-            wandb.log({
-                "iter": iter_num,
-                "train/loss": losses['train'],
-                "val/loss": losses['val'],
-                "lr": lr,
-                "mfu": running_mfu*100, # convert to percentage
-            })
+        if writer:
+            writer.add_scalar('Loss/Validation', losses['val'], iter_num)
+            writer.add_scalar('Loss/Train_Eval', losses['train'], iter_num)
+            writer.add_scalar('Parameters/Learning_Rate', lr, iter_num)
+
         if losses['val'] < best_val_loss or always_save_checkpoint:
             best_val_loss = losses['val']
             if iter_num > 0:
@@ -313,6 +316,10 @@ while True:
     scaler.step(optimizer)
     scaler.update()
     # flush the gradients as soon as we can, no need for this memory anymore
+    if master_process:
+        avg_clip_rate = sum(optimizer.step_clip_rates) / len(optimizer.step_clip_rates) if optimizer.step_clip_rates else 0
+        if writer:
+            writer.add_scalar('Train/Denominator_Clip_Rate', avg_clip_rate, iter_num)
     optimizer.zero_grad(set_to_none=True)
 
     # timing and logging
@@ -327,12 +334,18 @@ while True:
             mfu = raw_model.estimate_mfu(batch_size * gradient_accumulation_steps, dt)
             running_mfu = mfu if running_mfu == -1.0 else 0.9*running_mfu + 0.1*mfu
         print(f"iter {iter_num}: loss {lossf:.4f}, time {dt*1000:.2f}ms, mfu {running_mfu*100:.2f}%")
+        if writer:
+            writer.add_scalar('Loss/Train_Step', lossf, iter_num)
+
     iter_num += 1
     local_iter_num += 1
 
     # termination conditions
     if iter_num > max_iters:
         break
+
+if writer:
+    writer.close()
 
 if ddp:
     destroy_process_group()

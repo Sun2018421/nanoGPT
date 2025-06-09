@@ -12,3 +12,4 @@ env/
 venv/
 wandb/*
 out/*
+kernel_meta/*
