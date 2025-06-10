@@ -13,3 +13,5 @@ venv/
 wandb/*
 out/*
 kernel_meta/*
+out*/
+experimental_code/
